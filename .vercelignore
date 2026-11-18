@@ -1,0 +1,10 @@
+tests
+tools
+nginx
+nginx.conf
+Caddyfile
+docker-compose*.yml
+Dockerfile*
+*.md
+.github
+.env*

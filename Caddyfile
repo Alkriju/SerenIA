@@ -1,0 +1,14 @@
+# HTTPS automático (Let's Encrypt) para TODAS las páginas y redirección de http -> https.
+# Requiere: DOMAIN apuntando a este servidor y los puertos 80 y 443 abiertos.
+{
+	email {$ACME_EMAIL}
+}
+{$DOMAIN} {
+	encode zstd gzip
+	header {
+		Strict-Transport-Security "max-age=31536000; includeSubDomains"
+		-Server
+		-X-Powered-By
+	}
+	reverse_proxy frontend:80
+}

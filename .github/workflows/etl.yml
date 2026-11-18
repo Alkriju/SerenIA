@@ -1,0 +1,17 @@
+name: ETL programado
+# Vercel (plan gratis) solo permite 1 tarea programada al día; GitHub Actions llama al ETL con más frecuencia.
+# Repositorio PÚBLICO: Actions es gratis e ilimitado → puedes poner "*/5". Repositorio PRIVADO: hay 2.000 min/mes gratis → "*/30" gasta ~1.440.
+on:
+  schedule: [{cron: "*/30 * * * *"}]
+  workflow_dispatch:
+permissions: {}
+jobs:
+  etl:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Llamar al ETL
+        env: {SITE_URL: "${{ secrets.SITE_URL }}", CRON_SECRET: "${{ secrets.CRON_SECRET }}"}
+        run: |
+          test -n "$SITE_URL" -a -n "$CRON_SECRET" || { echo "Faltan los secretos SITE_URL y CRON_SECRET"; exit 1; }
+          curl --fail-with-body -sS --max-time 200 -H "Authorization: Bearer $CRON_SECRET" "$SITE_URL/api/cron/etl"

@@ -1,0 +1,21 @@
+{
+  "id": "tecnica_sueno",
+  "title": "Rutina para dormir",
+  "category": "tecnica",
+  "keys": [
+    "insomnio",
+    "dormir",
+    "sueño"
+  ],
+  "para": "mejorar el sueño",
+  "duracion": "30 min antes de acostarte",
+  "pasos": [
+    "Apaga pantallas",
+    "Luz tenue y baja temperatura",
+    "Escribe pendientes del día siguiente",
+    "Respiración 4-7-8 o relajación muscular",
+    "Si no duermes en 20 min, levántate y haz algo tranquilo"
+  ],
+  "nota": "",
+  "resumen": "Rutina para dormir: mejorar el sueño. Duración: 30 min antes de acostarte."
+}

@@ -1,0 +1,34 @@
+{
+  "id": "trabajo_equipo",
+  "title": "Conflictos en trabajos en grupo",
+  "category": "academico",
+  "keys": [
+    "trabajo en grupo",
+    "mi grupo",
+    "no trabajan",
+    "me dejan todo",
+    "compañeros de grupo",
+    "exposición",
+    "exposicion",
+    "hablar en público",
+    "hablar en publico"
+  ],
+  "resumen": "El trabajo en grupo y hablar en público generan tensión social. La preparación y los acuerdos claros reducen la ansiedad.",
+  "tecnicas": [
+    "Definir roles y fechas por escrito desde el inicio",
+    "Dividir entregables y revisar avances cortos",
+    "Hablar directamente con el compañero que no cumple, sin acusar",
+    "Ensayar la exposición en voz alta 3 veces",
+    "Respirar lento antes de hablar y mirar a una persona a la vez",
+    "Avisar al docente si el conflicto no se resuelve"
+  ],
+  "frases_de_validacion": [
+    "Es frustrante cargar con más de lo justo"
+  ],
+  "preguntas_abiertas": [
+    "¿Qué acuerdo concreto falta en el grupo?",
+    "¿Qué parte de la exposición te da más nervios?"
+  ],
+  "alerta": "",
+  "cuando_derivar": ""
+}

@@ -1,0 +1,33 @@
+{
+  "id": "fin_de_semestre",
+  "title": "Cierre de semestre y notas",
+  "category": "academico",
+  "keys": [
+    "notas finales",
+    "perdí",
+    "perdi",
+    "repetir materia",
+    "promedio",
+    "voy mal",
+    "reprobar",
+    "pérdida de cupo",
+    "perdida de cupo"
+  ],
+  "resumen": "Un mal resultado puede ser una oportunidad de ajustar el método. Hay opciones de recuperación según el reglamento.",
+  "tecnicas": [
+    "Revisar el reglamento: supletorios, habilitaciones, cursos intersemestrales",
+    "Pedir retroalimentación al docente",
+    "Cambiar el método (practicar, tutorías, grupos de estudio)",
+    "Hablar con coordinación sobre plan de mejoramiento",
+    "Separar el resultado de la identidad"
+  ],
+  "frases_de_validacion": [
+    "Un resultado no define tu capacidad"
+  ],
+  "preguntas_abiertas": [
+    "¿Qué crees que pasó en esa materia?",
+    "¿Qué opciones te da el reglamento?"
+  ],
+  "alerta": "",
+  "cuando_derivar": "Coordinación del programa y Bienestar."
+}

@@ -1,0 +1,21 @@
+{
+  "id": "tecnica_repaso",
+  "title": "Repaso espaciado",
+  "category": "tecnica",
+  "keys": [
+    "repaso",
+    "memorizar",
+    "retener",
+    "olvido"
+  ],
+  "para": "retener información para parciales",
+  "duracion": "10 min al día",
+  "pasos": [
+    "Estudia el tema hoy",
+    "Repásalo mañana con preguntas",
+    "Otra vez en 3 días",
+    "Y otra a la semana"
+  ],
+  "nota": "",
+  "resumen": "Repaso espaciado: retener información para parciales. Duración: 10 min al día."
+}

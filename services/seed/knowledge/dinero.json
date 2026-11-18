@@ -1,0 +1,34 @@
+{
+  "id": "dinero",
+  "title": "Preocupaciones económicas",
+  "category": "academico",
+  "keys": [
+    "plata",
+    "dinero",
+    "pagar",
+    "matrícula",
+    "matricula",
+    "deuda",
+    "beca",
+    "no me alcanza",
+    "trabajar y estudiar",
+    "icetex"
+  ],
+  "resumen": "El estrés económico afecta la concentración y las decisiones. Conocer las alternativas de financiación y hablarlo temprano abre opciones.",
+  "tecnicas": [
+    "Consultar en la universidad por becas, descuentos y financiación",
+    "Pedir un plan de pagos antes de que venza la matrícula",
+    "Revisar el presupuesto mensual: fijos, variables y recortes posibles",
+    "Averiguar por créditos educativos y subsidios",
+    "Buscar monitorías o trabajos de medio tiempo compatibles con horarios"
+  ],
+  "frases_de_validacion": [
+    "La presión del dinero pesa mucho y es válido que te preocupe"
+  ],
+  "preguntas_abiertas": [
+    "¿Cuál es la fecha límite que más te angustia?",
+    "¿Ya hablaste con la oficina de financiación?"
+  ],
+  "alerta": "",
+  "cuando_derivar": "Bienestar / financiera de la universidad."
+}

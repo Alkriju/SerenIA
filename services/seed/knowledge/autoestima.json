@@ -1,0 +1,33 @@
+{
+  "id": "autoestima",
+  "title": "Autoestima y autoimagen",
+  "category": "emocion",
+  "keys": [
+    "autoestima",
+    "no me gusto",
+    "me siento feo",
+    "me siento fea",
+    "me comparo",
+    "no valgo",
+    "inseguridad",
+    "inseguro",
+    "insegura"
+  ],
+  "resumen": "La autoestima se construye con acciones y trato amable hacia uno mismo, no con comparaciones. Las redes sociales muestran solo recortes.",
+  "tecnicas": [
+    "Lista de 5 cualidades y 3 logros propios",
+    "Limitar el tiempo en redes que te hacen compararte",
+    "Cumplir pequeñas promesas contigo para generar confianza",
+    "Rodearte de personas que te hagan sentir valorado/a",
+    "Cuidar el cuerpo: sueño, comida, movimiento"
+  ],
+  "frases_de_validacion": [
+    "Mereces el mismo cariño que le darías a otro"
+  ],
+  "preguntas_abiertas": [
+    "¿Qué sí te gusta de ti, aunque sea poco?",
+    "¿Con quién te comparas más?"
+  ],
+  "alerta": "",
+  "cuando_derivar": "Psicología si afecta mucho la vida diaria."
+}

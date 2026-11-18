@@ -1,0 +1,34 @@
+{
+  "id": "enojo",
+  "title": "Enojo e irritabilidad",
+  "category": "emocion",
+  "keys": [
+    "enojo",
+    "rabia",
+    "ira",
+    "furios",
+    "molest",
+    "irritab",
+    "me desespera",
+    "explot"
+  ],
+  "resumen": "El enojo suele proteger algo: límites, justicia o miedo. Se maneja bajando la activación antes de actuar y luego expresando la necesidad de forma clara.",
+  "tecnicas": [
+    "Pausa de 20 minutos antes de responder o decidir",
+    "Respiración lenta y mover el cuerpo (caminar, estirar)",
+    "Identificar qué hay debajo: ¿dolor, injusticia, cansancio?",
+    "Expresar la necesidad con 'yo siento... necesito...'",
+    "Escribir lo que quisiera decir y no enviarlo",
+    "Revisar sueño y hambre: empeoran la irritabilidad"
+  ],
+  "frases_de_validacion": [
+    "Tiene sentido que estés molesto/a",
+    "Algo importante para ti se sintió pasado a llevar"
+  ],
+  "preguntas_abiertas": [
+    "¿Qué sucedió justo antes de sentirte así?",
+    "¿Qué necesitas que cambie?"
+  ],
+  "alerta": "Si el enojo lleva a gritar, romper cosas o agredir.",
+  "cuando_derivar": "Psicología de Bienestar; si hay riesgo para otros, 123."
+}

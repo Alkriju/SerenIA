@@ -1,0 +1,38 @@
+{
+  "id": "relaciones",
+  "title": "Conflictos con pareja, amigos o familia",
+  "category": "social",
+  "keys": [
+    "mi novio",
+    "mi novia",
+    "pareja",
+    "pelea",
+    "discut",
+    "mis papás",
+    "mis papas",
+    "mi mamá",
+    "mi papá",
+    "amigos me",
+    "traición",
+    "celos",
+    "mi compañero de cuarto"
+  ],
+  "resumen": "Los conflictos cercanos duelen porque importan. Ayuda separar hechos de interpretaciones y decir con claridad la necesidad.",
+  "tecnicas": [
+    "Describir el hecho sin juicios ('cuando pasó X, me sentí Y')",
+    "Pedir lo que necesitas de forma concreta",
+    "Escuchar la versión del otro antes de responder",
+    "Elegir un momento tranquilo para conversar",
+    "Poner límites claros con respeto",
+    "Si hay violencia o miedo, buscar ayuda inmediata"
+  ],
+  "frases_de_validacion": [
+    "Es difícil cuando alguien cercano te afecta así"
+  ],
+  "preguntas_abiertas": [
+    "¿Qué te gustaría que fuera diferente en esa relación?",
+    "¿Qué necesitas decirle que no le has dicho?"
+  ],
+  "alerta": "Violencia, control, amenazas o miedo a la pareja o familiares.",
+  "cuando_derivar": "Línea 155 (orientación a mujeres), 123, Bienestar."
+}

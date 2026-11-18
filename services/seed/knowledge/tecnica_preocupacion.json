@@ -1,0 +1,21 @@
+{
+  "id": "tecnica_preocupacion",
+  "title": "Hora de la preocupación",
+  "category": "tecnica",
+  "keys": [
+    "preocupo",
+    "rumiar",
+    "vueltas",
+    "pensando"
+  ],
+  "para": "contener la rumiación",
+  "duracion": "15 min",
+  "pasos": [
+    "Elige una hora fija del día",
+    "Anota todo lo que te preocupa",
+    "Marca lo que sí puedes hacer y planea un paso",
+    "Fuera de esa hora, pospón la preocupación"
+  ],
+  "nota": "",
+  "resumen": "Hora de la preocupación: contener la rumiación. Duración: 15 min."
+}

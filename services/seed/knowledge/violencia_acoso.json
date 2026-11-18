@@ -1,0 +1,34 @@
+{
+  "id": "violencia_acoso",
+  "title": "Acoso, violencia o discriminación",
+  "category": "crisis",
+  "keys": [
+    "acoso",
+    "acosan",
+    "bullying",
+    "violencia",
+    "me pegan",
+    "me amenaz",
+    "abuso",
+    "discrimin",
+    "me persigue",
+    "me obliga"
+  ],
+  "resumen": "Nadie merece ser violentado ni acosado. Es importante documentar, poner límites y buscar apoyo institucional.",
+  "tecnicas": [
+    "Guardar evidencias (mensajes, fechas, testigos)",
+    "Hablar con una persona de confianza y con Bienestar o la instancia de la universidad",
+    "Línea 155 para mujeres víctimas de violencia y 122 (denuncia) ",
+    "Si hay peligro inmediato: 123",
+    "No enfrentar solo/a al agresor"
+  ],
+  "frases_de_validacion": [
+    "Lo que cuentas es serio y no es tu culpa"
+  ],
+  "preguntas_abiertas": [
+    "¿Estás a salvo en este momento?",
+    "¿Hay alguien de confianza con quien puedas hablar hoy?"
+  ],
+  "alerta": "Cualquier riesgo físico o abuso sexual.",
+  "cuando_derivar": "123, Línea 155, Fiscalía (122), Bienestar Universitario."
+}

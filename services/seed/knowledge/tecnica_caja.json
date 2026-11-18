@@ -1,0 +1,22 @@
+{
+  "id": "tecnica_caja",
+  "title": "Respiración en caja",
+  "category": "tecnica",
+  "keys": [
+    "caja",
+    "antes del examen",
+    "exposición",
+    "exposicion"
+  ],
+  "para": "enfocarte antes de un examen o exposición",
+  "duracion": "3 min",
+  "pasos": [
+    "Inhala 4 segundos",
+    "Sostén 4",
+    "Exhala 4",
+    "Sostén 4 con los pulmones vacíos",
+    "Repite 5 a 8 ciclos"
+  ],
+  "nota": "",
+  "resumen": "Respiración en caja: enfocarte antes de un examen o exposición. Duración: 3 min."
+}

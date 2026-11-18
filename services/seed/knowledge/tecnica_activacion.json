@@ -1,0 +1,22 @@
+{
+  "id": "tecnica_activacion",
+  "title": "Activación conductual",
+  "category": "tecnica",
+  "keys": [
+    "sin ganas",
+    "triste",
+    "desánimo",
+    "desanimo",
+    "vacío"
+  ],
+  "para": "salir del ánimo bajo",
+  "duracion": "20 min",
+  "pasos": [
+    "Elige una actividad pequeña de cuidado, de logro o con otra persona",
+    "Prográmala a una hora concreta",
+    "Hazla aunque no tengas ganas",
+    "Anota cómo te sentiste antes y después"
+  ],
+  "nota": "",
+  "resumen": "Activación conductual: salir del ánimo bajo. Duración: 20 min."
+}

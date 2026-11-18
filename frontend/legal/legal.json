@@ -1,0 +1,27 @@
+{
+  "version": "2026-11-16",
+  "draft": false,
+  "company": {
+    "name": "Chocky Corpotarion", "legal_id": "1234567890", "address": "calle falsa 22", "city": "Bogota D.C.", "country": "Colombia", "website": "SerenIA.com",
+    "email_general": "administrativoserenia@gmail.com", "email_privacy": "administrativoserenia@gmail.com", "email_copyright": "administrativoserenia@gmail.com", "phone": "1234567890",
+    "dpo_name": "Alonzo Perez", "dpo_email": "correofalso@gmail.com"
+  },
+  "providers": [
+    {"id": "google", "name": "Google LLC (Gemini API)", "country": "Estados Unidos", "purpose": "Respuestas del chat, resúmenes de memoria, voz sintetizada (TTS) y transcripción de audio", "data": "Mensajes de chat, contexto de la conversación y resúmenes, texto a leer en voz alta, audio dictado (solo si se usa la transcripción del servidor)", "active": true, "link": "https://policies.google.com/privacy"},
+    {"id": "openai", "name": "OpenAI, L.L.C.", "country": "Estados Unidos", "purpose": "Respaldo del chat y de la voz cuando otro proveedor no está disponible", "data": "Mensajes de chat y contexto, o texto a leer en voz alta", "active": true, "link": "https://openai.com/policies/privacy-policy"},
+    {"id": "groq", "name": "Groq, Inc.", "country": "Estados Unidos", "purpose": "Respaldo del chat", "data": "Mensajes de chat y contexto de la conversación", "active": true, "link": "https://groq.com/privacy-policy"},
+    {"id": "qwen", "name": "Alibaba Cloud Model Studio (Qwen)", "country": "Singapur", "purpose": "Estructuración de datos (ETL): clasifica emociones y temas a partir de textos para organizar tu seguimiento", "data": "Textos escritos por ti (chat, encuestas, respuestas de juegos) sin tu correo", "active": true, "link": "https://www.alibabacloud.com/help/en/legal/latest/alibaba-cloud-international-website-privacy-policy"},
+    {"id": "deepseek", "name": "DeepSeek (Hangzhou DeepSeek Artificial Intelligence)", "country": "China", "purpose": "Estructuración de datos (ETL): clasifica emociones y temas a partir de textos para organizar tu seguimiento", "data": "Textos escritos por ti (chat, encuestas, respuestas de juegos) sin tu correo", "active": true, "link": "https://cdn.deepseek.com/policies/en-US/deepseek-privacy-policy.html"},
+    {"id": "smtp", "name": "Proveedor de correo SMTP (Google / Gmail)", "country": "Estados Unidos", "purpose": "Envío del código de verificación al registrarte", "data": "Tu correo electrónico y el código de 6 dígitos", "active": true, "link": "https://policies.google.com/privacy"},
+    {"id": "hosting", "name": "Vercel Inc.", "country": "Estados Unidos (Washington D. C.)", "purpose": "Alojamiento del servidor y de las bases de datos", "data": "Todos los datos de la aplicación, almacenados en el servidor", "active": true, "link": ""},
+    {"id": "letsencrypt", "name": "Let's Encrypt (Internet Security Research Group)", "country": "Estados Unidos", "purpose": "Certificados HTTPS (cifrado de la conexión)", "data": "Solo el nombre de dominio del sitio; no recibe datos de las personas usuarias", "active": true, "link": "https://letsencrypt.org/privacy/"},
+    {"id": "github", "name": "GitHub Models (GitHub, Inc.)", "country": "Estados Unidos", "purpose": "Respaldo del chat (desactivado salvo configuración)", "data": "Mensajes de chat y contexto", "active": false, "link": "https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement"},
+    {"id": "cohere", "name": "Cohere Inc.", "country": "Canadá", "purpose": "Respaldo del chat (desactivado salvo configuración)", "data": "Mensajes de chat y contexto", "active": false, "link": "https://cohere.com/privacy"},
+    {"id": "anthropic", "name": "Anthropic, PBC", "country": "Estados Unidos", "purpose": "Respaldo del chat (desactivado salvo configuración)", "data": "Mensajes de chat y contexto", "active": false, "link": "https://www.anthropic.com/privacy"},
+    {"id": "entra", "name": "Microsoft Entra ID (Microsoft Corporation)", "country": "Estados Unidos", "purpose": "Inicio de sesión con correo institucional (desactivado salvo configuración)", "data": "Correo institucional y verificación de identidad", "active": false, "link": "https://privacy.microsoft.com/privacystatement"}
+  ],
+  "retention": {
+    "backups_days": 14,
+    "consent_log": "5 años"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "ritmo_semestre",
+  "title": "Organizarse en el semestre",
+  "category": "academico",
+  "keys": [
+    "organizar",
+    "horario",
+    "agenda",
+    "calendario",
+    "no me alcanza el tiempo",
+    "planear",
+    "plan de estudio"
+  ],
+  "resumen": "Un plan semanal simple evita acumulaciones de última hora y reduce el estrés.",
+  "tecnicas": [
+    "Calendario con parciales, entregas y descansos",
+    "Revisar la semana cada domingo",
+    "Matriz urgente/importante",
+    "Bloques fijos de estudio por materia",
+    "Dejar 20% del tiempo libre para imprevistos"
+  ],
+  "frases_de_validacion": [
+    "Organizarse es una habilidad que se entrena"
+  ],
+  "preguntas_abiertas": [
+    "¿Qué entregas tienes esta semana?",
+    "¿Qué horas del día tienes realmente libres?"
+  ],
+  "alerta": "",
+  "cuando_derivar": ""
+}

@@ -1,0 +1,32 @@
+{
+  "id": "concentracion",
+  "title": "Concentración y memoria",
+  "category": "academico",
+  "keys": [
+    "no me concentro",
+    "se me olvida",
+    "no retengo",
+    "memoria",
+    "me distraigo",
+    "mente dispersa",
+    "no entiendo lo que leo"
+  ],
+  "resumen": "La concentración mejora con descanso, bloques cortos y recuperación activa de información. La memoria se fija con repaso espaciado.",
+  "tecnicas": [
+    "Estudio en bloques de 25 min + pausas de 5",
+    "Repaso espaciado: 1 día, 3 días, 7 días",
+    "Preguntarse en vez de releer (recuperación activa)",
+    "Un solo estímulo: celular lejos y pestañas cerradas",
+    "Mapas mentales y resúmenes propios",
+    "Comer, hidratarse y dormir bien"
+  ],
+  "frases_de_validacion": [
+    "Cuando estamos agotados o ansiosos la mente se dispersa; no es falta de capacidad"
+  ],
+  "preguntas_abiertas": [
+    "¿En qué momento del día te concentras mejor?",
+    "¿Qué te distrae más cuando estudias?"
+  ],
+  "alerta": "",
+  "cuando_derivar": "Médico si hay olvidos graves o súbitos."
+}

@@ -1,0 +1,31 @@
+{
+  "id": "pensamientos_negativos",
+  "title": "Pensamientos negativos repetitivos",
+  "category": "emocion",
+  "keys": [
+    "pensamientos negativos",
+    "rumiar",
+    "le doy vueltas",
+    "no paro de pensar",
+    "pienso lo peor",
+    "catastrof",
+    "me obsesiono"
+  ],
+  "resumen": "Rumiar es dar vueltas a lo mismo sin llegar a solución. Se interrumpe con acción, enfoque en el presente y cuestionando el pensamiento.",
+  "tecnicas": [
+    "Nombrar el pensamiento: 'estoy teniendo el pensamiento de que...'",
+    "Registro de pensamientos: situación, pensamiento, emoción, alternativa",
+    "Anclaje de los sentidos 5-4-3-2-1",
+    "Hacer algo con las manos o salir a caminar",
+    "Escribir el pensamiento y la acción más pequeña posible"
+  ],
+  "frases_de_validacion": [
+    "Tu mente intenta protegerte, aunque se pasa"
+  ],
+  "preguntas_abiertas": [
+    "¿Qué dice exactamente ese pensamiento?",
+    "¿Qué le dirías a un amigo con el mismo pensamiento?"
+  ],
+  "alerta": "",
+  "cuando_derivar": "Psicología si dura semanas."
+}

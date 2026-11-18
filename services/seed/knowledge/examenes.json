@@ -1,0 +1,38 @@
+{
+  "id": "examenes",
+  "title": "Ansiedad ante parciales",
+  "category": "academico",
+  "keys": [
+    "parcial",
+    "examen",
+    "evaluación",
+    "evaluacion",
+    "quiz",
+    "me va mal",
+    "me bloqueo",
+    "mente en blanco",
+    "sustentación",
+    "sustentacion"
+  ],
+  "resumen": "Un nivel moderado de tensión ayuda, pero el exceso bloquea la memoria. Lo que más baja el miedo es tener un plan, practicar recuperando información y dormir.",
+  "tecnicas": [
+    "Dividir el temario en bloques de 25 min con pausas de 5 (Pomodoro)",
+    "Empezar por el tema más corto para ganar tracción",
+    "Practicar con preguntas y ejercicios, no solo releer",
+    "Dormir bien la noche anterior rinde más que una madrugada de estudio",
+    "Durante el examen: leer todo, empezar por lo seguro, respirar si te bloqueas",
+    "Simular el examen con tiempo real",
+    "Explicar el tema en voz alta como si se lo enseñaras a alguien (técnica Feynman)"
+  ],
+  "frases_de_validacion": [
+    "Es normal sentir presión en semana de parciales",
+    "Un parcial no define quién eres"
+  ],
+  "preguntas_abiertas": [
+    "¿Cuál es la materia que más te pesa?",
+    "¿Qué parte del temario sientes más floja?",
+    "¿Cuánto tiempo real tienes antes del examen?"
+  ],
+  "alerta": "Si se bloquea siempre o evita presentar exámenes.",
+  "cuando_derivar": "Bienestar Universitario / tutorías académicas."
+}

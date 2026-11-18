@@ -1,0 +1,30 @@
+{
+  "id": "habitos_alimentacion",
+  "title": "Alimentación y energía",
+  "category": "habito",
+  "keys": [
+    "no como",
+    "como mal",
+    "apetito",
+    "comida chatarra",
+    "desayuno",
+    "me salto comidas",
+    "peso"
+  ],
+  "resumen": "Comer a horas regulares y con variedad ayuda al ánimo y la energía. Saltarse comidas empeora la irritabilidad y la concentración.",
+  "tecnicas": [
+    "Tres comidas con alguna proteína y fruta o verdura",
+    "Llevar snacks sencillos (frutos secos, fruta)",
+    "Agua durante el día",
+    "Evitar depender de bebidas energéticas en parciales",
+    "Comer sin pantallas cuando se pueda"
+  ],
+  "frases_de_validacion": [
+    "Cuidarte con la comida también es cuidar tu mente"
+  ],
+  "preguntas_abiertas": [
+    "¿Qué comes en un día normal de estudio?"
+  ],
+  "alerta": "Si hay culpa intensa con la comida, restricción, atracones o miedo a engordar.",
+  "cuando_derivar": "Psicología y nutrición (Bienestar / EPS). No se dan metas numéricas por chat."
+}

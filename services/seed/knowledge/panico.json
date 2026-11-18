@@ -1,0 +1,33 @@
+{
+  "id": "panico",
+  "title": "Ataque de pánico",
+  "category": "emocion",
+  "keys": [
+    "pánico",
+    "panico",
+    "me ahogo",
+    "no puedo respirar",
+    "me voy a morir",
+    "se me acelera el corazón",
+    "opresión en el pecho"
+  ],
+  "resumen": "El pánico es una oleada intensa de miedo con síntomas físicos (palpitaciones, falta de aire, mareo) que suele llegar a su pico en unos minutos y luego baja. Es muy desagradable pero no peligroso por sí mismo.",
+  "tecnicas": [
+    "Recordar: esto es pánico, pasa solo",
+    "Exhalar más largo que inhalar (4 por 6)",
+    "Apoyar los pies en el suelo y nombrar 5 objetos que ve",
+    "No luchar contra la sensación: dejarla subir y bajar como una ola",
+    "Agua fría en las manos o la cara",
+    "Después, anotar qué lo disparó para entender el patrón"
+  ],
+  "frases_de_validacion": [
+    "Estás a salvo, esto va a pasar",
+    "Estoy aquí contigo mientras baja"
+  ],
+  "preguntas_abiertas": [
+    "¿Estás en un lugar seguro ahora?",
+    "¿Puedes sentir tus pies en el suelo?"
+  ],
+  "alerta": "Dolor de pecho fuerte, desmayo o primera vez con estos síntomas: descartar causa médica.",
+  "cuando_derivar": "Urgencias (123) si hay dolor de pecho intenso o falta de aire que no cede."
+}

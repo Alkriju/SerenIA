@@ -1,0 +1,34 @@
+{
+  "id": "autolesion_prevencion",
+  "title": "Pensamientos de hacerse daño",
+  "category": "crisis",
+  "keys": [
+    "hacerme daño",
+    "autolesi",
+    "cortarme",
+    "me lastimo",
+    "no quiero vivir",
+    "suicid",
+    "quitarme la vida",
+    "quiero morir",
+    "ya no puedo más"
+  ],
+  "resumen": "Los pensamientos de hacerse daño o de morir son señales de un dolor muy grande, no de debilidad, y pueden aliviarse con apoyo. La prioridad es la seguridad ahora.",
+  "tecnicas": [
+    "Preguntar con calma y de forma directa por su seguridad",
+    "Quedarse conversando y no minimizar",
+    "Alejar medios de daño si es posible y estar acompañado/a",
+    "Llamar a la Línea 106 (Bogotá, salud mental) o al 123",
+    "Contactar a alguien de confianza y a Bienestar Universitario"
+  ],
+  "frases_de_validacion": [
+    "Gracias por decírmelo, me importa lo que te pasa",
+    "No tienes que pasar por esto solo/a"
+  ],
+  "preguntas_abiertas": [
+    "¿Estás en un lugar seguro ahora?",
+    "¿Hay alguien cerca que pueda acompañarte?"
+  ],
+  "alerta": "RIESGO ALTO: no guardar secreto, priorizar contacto humano inmediato.",
+  "cuando_derivar": "Línea 106, 123 o urgencias. Alertar a una persona de confianza."
+}

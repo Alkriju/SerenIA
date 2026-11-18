@@ -1,0 +1,36 @@
+{
+  "id": "ansiedad",
+  "title": "Ansiedad y nervios",
+  "category": "emocion",
+  "keys": [
+    "ansios",
+    "nervios",
+    "angustia",
+    "preocup",
+    "miedo",
+    "taquicardia",
+    "inquiet",
+    "no puedo parar de pensar"
+  ],
+  "resumen": "La ansiedad es la alarma del cuerpo anticipando una amenaza. Es incómoda pero no peligrosa; baja cuando se le da al cuerpo señales de seguridad y a la mente algo concreto que hacer.",
+  "tecnicas": [
+    "Respiración lenta: inhalar 4s, exhalar 6-8s, durante 2-3 minutos",
+    "Anclaje 5-4-3-2-1 con los sentidos",
+    "Separar lo que puedo controlar de lo que no y actuar en lo primero",
+    "Preguntarse: ¿qué es lo peor, lo más probable y lo que haría si ocurre?",
+    "Moverse: caminar 10 minutos baja la activación",
+    "Reducir cafeína y pantallas en la noche",
+    "'Hora de preocuparse': 15 minutos al día para anotar preocupaciones y después soltarlas"
+  ],
+  "frases_de_validacion": [
+    "La ansiedad es muy incómoda, pero no te va a hacer daño",
+    "Tu cuerpo está intentando protegerte, solo que se pasó de alarma"
+  ],
+  "preguntas_abiertas": [
+    "¿Qué es lo que más te inquieta que pase?",
+    "¿En qué parte del cuerpo la sientes más?",
+    "¿Qué has hecho otras veces que te haya bajado un poco los nervios?"
+  ],
+  "alerta": "Si la ansiedad dura semanas, interfiere con dormir, estudiar o salir, o aparecen ataques de pánico frecuentes.",
+  "cuando_derivar": "Consulta psicología de Bienestar Universitario o EPS."
+}

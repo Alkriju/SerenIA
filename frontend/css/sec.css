@@ -1,0 +1,61 @@
+/* SerenIA · seguridad, privacidad y accesibilidad (estilos). Se carga DESPUÉS de los estilos de la página. */
+.sr{position:absolute!important;width:1px;height:1px;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);clip-path:inset(50%);white-space:nowrap;border:0;padding:0}
+.skip{position:fixed;left:12px;top:-90px;z-index:400;background:#fff;color:#1c1346;padding:11px 18px;border-radius:12px;font-weight:800;text-decoration:none;box-shadow:0 8px 30px #000;transition:top .15s}
+.skip:focus{top:12px}
+/* Foco visible y consistente en TODO lo interactivo */
+:focus-visible{outline:3px solid #fff!important;outline-offset:2px!important;box-shadow:0 0 0 6px rgba(139,92,246,.9)}
+[tabindex="-1"]:focus{outline:none!important;box-shadow:none}
+.fi input:focus-visible,.search input:focus-visible,.ib2 input:focus-visible{outline:0!important;box-shadow:none}
+.fi:focus-within,.search:focus-within,.ib2 .in:focus-within{outline:3px solid #fff;outline-offset:2px;box-shadow:0 0 0 6px rgba(139,92,246,.9)}
+#bz [data-z]:focus-visible{stroke:#fff!important;stroke-width:3;outline:0!important;box-shadow:none}
+.vol:focus-visible{box-shadow:0 0 0 4px rgba(139,92,246,.9)}
+.ts[role=button],.vc[role=button],.stage[role=button]{cursor:pointer}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;animation-delay:0s!important;transition-duration:.001ms!important;scroll-behavior:auto!important}
+}
+/* Botón con aspecto de enlace (reemplaza a <a onclick>) */
+.linklike{background:none;border:0;padding:4px 2px;margin:0;font:inherit;font-weight:600;color:var(--p2);cursor:pointer;text-decoration:underline;text-underline-offset:3px}
+.linklike:hover{color:#fff}
+.sw .linklike{text-decoration:none}
+/* Casillas de consentimiento */
+.ck{display:flex;gap:10px;align-items:flex-start;font-size:13.5px;line-height:1.5;color:var(--mut);text-align:left;cursor:pointer}
+.ck input{width:20px;height:20px;margin:1px 0 0;flex:none;accent-color:#8b5cf6;cursor:pointer}
+.ck a{color:var(--p2);font-weight:600}
+.ck .req{color:#ffb3c1;font-weight:700;white-space:nowrap}
+.ck .opt{color:var(--mut);font-weight:600;white-space:nowrap}
+.consents{display:flex;flex-direction:column;gap:11px;padding:2px 0}
+.lb:disabled,.btn:disabled{opacity:.45;cursor:not-allowed;filter:saturate(.6);box-shadow:none}
+.hpw{position:absolute!important;left:-9999px!important;top:auto;width:1px;height:1px;overflow:hidden}
+#msg{line-height:1.45}
+/* Enlaces legales */
+.legal-links{display:flex;flex-wrap:wrap;gap:4px 14px;font-size:12.5px;color:var(--mut);align-items:center}
+.legal-links a{color:var(--mut);text-underline-offset:3px}.legal-links a:hover{color:#fff}
+.legal-links .linklike{font-size:12.5px;font-weight:500;color:var(--mut)}
+.rp .legal-links{margin-top:12px}
+.appft{margin:34px 4px 110px;padding-top:16px;border-top:1px solid var(--line)}
+@media(min-width:861px){.appft{margin-bottom:30px}}
+/* Banner de cookies */
+.ccb{position:fixed;left:12px;right:12px;bottom:12px;z-index:130;max-width:940px;margin:0 auto;background:var(--side);border:1px solid var(--p2);border-radius:20px;padding:16px 20px;box-shadow:0 24px 70px -10px #000;display:flex;gap:14px 22px;align-items:center;flex-wrap:wrap}
+.ccb[hidden]{display:none!important}
+.ccb .cct{flex:1 1 380px;min-width:0}.ccb b{font-size:15.5px}.ccb p{margin:4px 0 0;font-size:13.5px;line-height:1.5;color:var(--mut)}.ccb a{color:var(--p2);font-weight:600}
+.cca{display:flex;gap:8px;flex-wrap:wrap}
+.cca .btn{padding:11px 18px;font-size:14px}
+.ov.sec{z-index:140}
+.ccrow{display:flex;gap:14px;align-items:flex-start;justify-content:space-between;padding:14px 0;border-top:1px solid var(--line)}
+.ccrow:first-of-type{border-top:0}
+.ccrow b{font-size:15px}.ccrow small{display:block;color:var(--mut);font-size:13px;line-height:1.45;margin-top:2px}
+/* Interruptor */
+.swt{position:relative;width:50px;height:30px;border-radius:999px;border:1px solid var(--line);background:rgba(255,255,255,.16);flex:none;padding:0;cursor:pointer;transition:background .2s}
+.swt i{position:absolute;top:3px;left:3px;width:22px;height:22px;border-radius:50%;background:#fff;transition:transform .2s}
+.swt[aria-checked=true]{background:#7c4dff;border-color:#b79bff}.swt[aria-checked=true] i{transform:translateX(20px)}
+.swt[aria-disabled=true]{opacity:.65;cursor:not-allowed}
+/* Tarjeta de privacidad */
+.btn.danger{background:rgba(255,100,130,.14);color:#ffb3c1;border:1px solid rgba(255,143,163,.5)}
+.btn.danger:hover{background:rgba(255,100,130,.26)}
+.btn.dangerx{background:#d6405f;color:#fff}
+.privacts{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px}
+.plinks{margin:16px 0 0;font-size:13.5px;color:var(--mut);display:flex;flex-wrap:wrap;gap:4px 14px}
+.plinks a{color:var(--p2);font-weight:600}
+#priv_ok{min-height:20px}
+.cmtxt{color:var(--mut);font-size:14px;line-height:1.55;margin:6px 0 14px}
+.acts.end{justify-content:flex-end;margin-top:18px;flex-wrap:wrap}

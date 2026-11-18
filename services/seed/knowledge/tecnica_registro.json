@@ -1,0 +1,22 @@
+{
+  "id": "tecnica_registro",
+  "title": "Registro de pensamientos",
+  "category": "tecnica",
+  "keys": [
+    "pensamientos",
+    "autoexigencia",
+    "fracaso",
+    "catastrof"
+  ],
+  "para": "cuestionar pensamientos que te angustian",
+  "duracion": "10 min",
+  "pasos": [
+    "Situación: ¿qué pasó?",
+    "Pensamiento automático: ¿qué pensé?",
+    "Emoción e intensidad (1-10)",
+    "Evidencia a favor y en contra",
+    "Pensamiento alternativo más justo"
+  ],
+  "nota": "",
+  "resumen": "Registro de pensamientos: cuestionar pensamientos que te angustian. Duración: 10 min."
+}

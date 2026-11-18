@@ -1,0 +1,34 @@
+{
+  "id": "procrastinacion",
+  "title": "Procrastinación",
+  "category": "academico",
+  "keys": [
+    "procrastin",
+    "dejo todo",
+    "no empiezo",
+    "postergo",
+    "pereza",
+    "me distraigo",
+    "no me concentro",
+    "dejo todo para última hora"
+  ],
+  "resumen": "Postergar suele ser evitar una emoción incómoda (miedo a fallar, aburrimiento, ansiedad), no falta de voluntad. Se vence bajando la barrera de entrada.",
+  "tecnicas": [
+    "Regla de 5 minutos: empezar solo 5",
+    "Dividir la tarea y elegir el paso más pequeño",
+    "Quitar el celular de la vista durante la sesión",
+    "Premiar el avance, no el resultado",
+    "Fijar hora y lugar exactos ('a las 4 en la biblioteca')",
+    "Compromiso con otra persona (estudiar en pareja)",
+    "Empezar por lo más fácil para ganar impulso"
+  ],
+  "frases_de_validacion": [
+    "Postergar le pasa a casi todo el mundo; no es flojera"
+  ],
+  "preguntas_abiertas": [
+    "¿Qué sientes justo antes de abrir el material?",
+    "¿Cuál sería el primer paso de 5 minutos?"
+  ],
+  "alerta": "",
+  "cuando_derivar": "Tutorías o Bienestar si impacta seriamente las notas."
+}

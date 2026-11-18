@@ -1,0 +1,35 @@
+{
+  "id": "desercion",
+  "title": "Deseo de dejar materias o la carrera",
+  "category": "academico",
+  "keys": [
+    "cancelar",
+    "retirar",
+    "dejar la carrera",
+    "perder la materia",
+    "abandonar",
+    "desertar",
+    "no sirvo para",
+    "cambiar de carrera",
+    "no puedo pagar",
+    "retiro de materia"
+  ],
+  "resumen": "Pensar en retirarse suele mezclar problemas distintos: una materia difícil, la carga total, el dinero, la vocación o un mal momento emocional. Separarlos ayuda a decidir con calma.",
+  "tecnicas": [
+    "Distinguir: ¿es una materia, la carga total, el dinero o la carrera?",
+    "Hablar con docente o coordinación sobre opciones (prórroga, tutorías, plan de recuperación)",
+    "Revisar apoyos económicos, becas y facilidades de pago",
+    "Esperar unos días antes de decidir si es una racha de agotamiento",
+    "Hacer una lista de pros y contras y de qué cambiaría si algo mejorara",
+    "Hablar con alguien que haya pasado por lo mismo"
+  ],
+  "frases_de_validacion": [
+    "Pensar en dejarlo no te hace débil; es una señal de que algo pesa demasiado"
+  ],
+  "preguntas_abiertas": [
+    "¿Qué es exactamente lo que más te hace querer irte?",
+    "Si ese problema se resolviera, ¿seguirías queriendo irte?"
+  ],
+  "alerta": "Decisión tomada en medio de una crisis emocional.",
+  "cuando_derivar": "Coordinación de programa y Bienestar (apoyos económicos y psicosociales)."
+}

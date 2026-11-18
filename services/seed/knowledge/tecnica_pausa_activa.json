@@ -1,0 +1,21 @@
+{
+  "id": "tecnica_pausa_activa",
+  "title": "Pausa activa de 2 minutos",
+  "category": "tecnica",
+  "keys": [
+    "cansancio",
+    "pausa",
+    "energía",
+    "energia"
+  ],
+  "para": "recuperar energía en estudio largo",
+  "duracion": "2 min",
+  "pasos": [
+    "Levántate",
+    "Toma agua",
+    "Estira cuello y hombros",
+    "Mira algo lejano 20 segundos"
+  ],
+  "nota": "",
+  "resumen": "Pausa activa de 2 minutos: recuperar energía en estudio largo. Duración: 2 min."
+}

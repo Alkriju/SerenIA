@@ -1,0 +1,13 @@
+# Se usa ENCIMA del compose base:  docker compose -f docker-compose.yml -f docker-compose.prod.yml up -d --build
+services:
+  caddy:
+    image: caddy:2-alpine
+    restart: unless-stopped
+    ports: ["80:80", "443:443", "443:443/udp"]
+    environment: {DOMAIN: "${DOMAIN}", ACME_EMAIL: "${ACME_EMAIL}"}
+    volumes: ["./Caddyfile:/etc/caddy/Caddyfile:ro", "caddy_data:/data", "caddy_config:/config"]
+    depends_on: [frontend]
+    security_opt: ["no-new-privileges:true"]
+    networks: [web]
+  frontend: {ports: !reset []}      # solo se entra por Caddy (HTTPS)
+  seaweed: {ports: !reset []}       # API S3 cerrada al exterior

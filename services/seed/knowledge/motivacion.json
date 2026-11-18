@@ -1,0 +1,32 @@
+{
+  "id": "motivacion",
+  "title": "Motivación y propósito",
+  "category": "academico",
+  "keys": [
+    "no sé para qué",
+    "sin motivación",
+    "sin motivacion",
+    "no me gusta mi carrera",
+    "vocación",
+    "vocacion",
+    "perdí el interés",
+    "perdi el interes"
+  ],
+  "resumen": "La motivación sube después de empezar, no antes. Conectar tareas con metas propias y celebrar pequeños progresos la sostiene.",
+  "tecnicas": [
+    "Escribir para qué estudias y por quién",
+    "Dividir el semestre en metas pequeñas",
+    "Hablar con docentes o egresados sobre el campo laboral",
+    "Probar proyectos aplicados (semilleros, retos)",
+    "Revisar si el problema es la carrera o el cansancio actual"
+  ],
+  "frases_de_validacion": [
+    "Dudar también es parte del camino"
+  ],
+  "preguntas_abiertas": [
+    "¿Qué te atrajo de esta carrera al principio?",
+    "¿Qué parte sí te gusta?"
+  ],
+  "alerta": "",
+  "cuando_derivar": "Orientación vocacional / coordinación del programa."
+}

@@ -1,0 +1,37 @@
+{
+  "id": "autoexigencia",
+  "title": "Autoexigencia y miedo a fallar",
+  "category": "emocion",
+  "keys": [
+    "fracaso",
+    "fracasé",
+    "no soy suficiente",
+    "inútil",
+    "inutil",
+    "tonto",
+    "tonta",
+    "perfeccion",
+    "decepcion",
+    "no soy buen",
+    "impostor"
+  ],
+  "resumen": "La autocrítica dura no mejora el rendimiento; la autocompasión sí. Fallar es información, no un veredicto sobre el valor personal.",
+  "tecnicas": [
+    "Hablarse como se le hablaría a un buen amigo",
+    "Cambiar 'soy un fracaso' por 'esto me salió mal y puedo aprender'",
+    "Fijar metas realistas y celebrar el progreso",
+    "Separar el valor personal de la nota",
+    "Anotar logros del semestre, incluso los pequeños",
+    "Registro de pensamientos: situación, pensamiento, emoción, alternativa más justa"
+  ],
+  "frases_de_validacion": [
+    "Se nota lo mucho que te exiges",
+    "Tu valor no depende de una nota"
+  ],
+  "preguntas_abiertas": [
+    "¿Qué le dirías a un amigo que se sintiera así?",
+    "¿Qué evidencia tienes a favor y en contra de ese pensamiento?"
+  ],
+  "alerta": "",
+  "cuando_derivar": "Psicología si se vuelve constante."
+}

@@ -1,0 +1,37 @@
+{
+  "id": "tristeza",
+  "title": "Tristeza y ánimo bajo",
+  "category": "emocion",
+  "keys": [
+    "triste",
+    "tristeza",
+    "llorar",
+    "sin ganas",
+    "vacío",
+    "vacio",
+    "deprim",
+    "desanim",
+    "nada me motiva",
+    "desmotiv"
+  ],
+  "resumen": "La tristeza es una emoción natural ante pérdidas o frustraciones. Cuando se vuelve persistente, quita energía y ganas. La activación conductual (hacer pequeñas acciones aunque no haya ganas) es una de las ayudas más estudiadas.",
+  "tecnicas": [
+    "Permitirse sentirla sin juzgarse",
+    "Una acción pequeña de cuidado hoy: ducha, caminar 10 min, hablar con alguien",
+    "Anotar 3 cosas que salieron bien, por pequeñas que sean",
+    "Luz natural por la mañana y horarios regulares",
+    "Contarle a una persona de confianza cómo se siente",
+    "Dividir tareas en pasos de 5 minutos"
+  ],
+  "frases_de_validacion": [
+    "Lamento que estés pasando por esto",
+    "No tienes que estar bien todo el tiempo"
+  ],
+  "preguntas_abiertas": [
+    "¿Desde cuándo te sientes así?",
+    "¿Hay algo que antes disfrutabas y ahora no?",
+    "¿Qué fue lo último que te sacó una sonrisa, aunque fuera pequeña?"
+  ],
+  "alerta": "Tristeza casi todos los días por más de dos semanas, con pérdida de interés, cambios de sueño o apetito.",
+  "cuando_derivar": "Psicología de Bienestar o EPS; si hay ideas de hacerse daño, 106 / 123."
+}

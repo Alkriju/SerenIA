@@ -1,0 +1,16 @@
+name: Pruebas
+on:
+  push: {branches: [main]}
+  pull_request:
+permissions: {contents: read}
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12", cache: pip}
+      - run: pip install -r requirements.txt pytest mongomock
+      - run: python tools/scan_secrets.py      # falla si hay claves escritas en el código
+      - run: python -m pytest -q tests -W ignore
+      - run: pip install pip-audit && pip-audit -r requirements.txt   # falla si una dependencia tiene vulnerabilidades conocidas

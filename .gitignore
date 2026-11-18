@@ -1,0 +1,10 @@
+.env
+.env.chat
+.env.etl
+.env.*
+!.env.example
+!.env.*.example
+__pycache__/
+*.pyc
+.pytest_cache/
+backups/

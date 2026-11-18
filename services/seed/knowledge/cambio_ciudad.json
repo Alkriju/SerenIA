@@ -1,0 +1,31 @@
+{
+  "id": "cambio_ciudad",
+  "title": "Adaptación y extrañar casa",
+  "category": "emocion",
+  "keys": [
+    "extraño mi casa",
+    "nueva ciudad",
+    "adaptar",
+    "primer semestre",
+    "no conozco a nadie",
+    "lejos de mi familia",
+    "nostalgia"
+  ],
+  "resumen": "Adaptarse a un nuevo lugar toma tiempo. La nostalgia es normal y baja al construir rutinas y vínculos.",
+  "tecnicas": [
+    "Rutinas fijas de sueño, comida y estudio",
+    "Llamadas programadas con la familia",
+    "Explorar el barrio y el campus de a poco",
+    "Unirse a grupos o semilleros",
+    "Pedir apoyo a Bienestar y a compañeros de semestre"
+  ],
+  "frases_de_validacion": [
+    "Extrañar es una forma de querer"
+  ],
+  "preguntas_abiertas": [
+    "¿Qué es lo que más extrañas?",
+    "¿Qué de aquí sí te gusta?"
+  ],
+  "alerta": "",
+  "cuando_derivar": ""
+}

@@ -1,0 +1,20 @@
+{
+  "id": "tecnica_pomodoro",
+  "title": "Técnica Pomodoro",
+  "category": "tecnica",
+  "keys": [
+    "pomodoro",
+    "estudiar",
+    "concentr"
+  ],
+  "para": "estudiar con enfoque y descansos",
+  "duracion": "25 + 5 min",
+  "pasos": [
+    "Elige una tarea concreta",
+    "Temporizador de 25 minutos sin celular",
+    "Descansa 5 minutos y muévete",
+    "Después de 4 bloques, descanso largo de 15-20 min"
+  ],
+  "nota": "",
+  "resumen": "Técnica Pomodoro: estudiar con enfoque y descansos. Duración: 25 + 5 min."
+}

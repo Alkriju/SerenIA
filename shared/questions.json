@@ -1,0 +1,748 @@
+{
+ "version": 1,
+ "nota": "Cuestionario orientativo de seguimiento; no es un diagnóstico clínico.",
+ "kinds": {
+  "inicial": {
+   "title": "Encuesta diagnóstica inicial",
+   "sections": [
+    {
+     "title": "Cómo te sientes",
+     "intro": "Responde con sinceridad; no hay respuestas buenas ni malas.",
+     "questions": [
+      {
+       "id": "mood1",
+       "type": "scale",
+       "text": "En general, ¿cómo ha estado tu ánimo esta semana?",
+       "dim": "mood",
+       "labels": [
+        "Muy mal",
+        "Mal",
+        "Regular",
+        "Bien",
+        "Muy bien"
+       ],
+       "rev": false
+      },
+      {
+       "id": "mood2",
+       "type": "scale",
+       "text": "¿Has disfrutado de las cosas que normalmente te gustan?",
+       "dim": "mood",
+       "labels": [
+        "Nunca",
+        "Pocas veces",
+        "A veces",
+        "Casi siempre",
+        "Siempre"
+       ],
+       "rev": false
+      },
+      {
+       "id": "mood3",
+       "type": "scale",
+       "text": "¿Te sientes con esperanza sobre tu futuro?",
+       "dim": "mood",
+       "labels": [
+        "Nunca",
+        "Pocas veces",
+        "A veces",
+        "Casi siempre",
+        "Siempre"
+       ],
+       "rev": false
+      },
+      {
+       "id": "mood4",
+       "type": "scale",
+       "text": "¿Te has sentido triste o sin ganas?",
+       "dim": "mood",
+       "labels": [
+        "Nunca",
+        "Pocas veces",
+        "A veces",
+        "Casi siempre",
+        "Siempre"
+       ],
+       "rev": true
+      }
+     ]
+    },
+    {
+     "title": "Nervios y preocupación",
+     "intro": "Estas preguntas son orientativas, no son un diagnóstico.",
+     "questions": [
+      {
+       "id": "anx1",
+       "type": "scale",
+       "text": "¿Te has sentido nervioso/a, ansioso/a o con los nervios de punta?",
+       "dim": "anxiety",
+       "labels": [
+        "Nunca",
+        "Pocas veces",
+        "A veces",
+        "Casi siempre",
+        "Siempre"
+       ],
+       "rev": false
+      },
+      {
+       "id": "anx2",
+       "type": "scale",
+       "text": "¿Te ha costado parar o controlar la preocupación?",
+       "dim": "anxiety",
+       "labels": [
+        "Nunca",
+        "Pocas veces",
+        "A veces",
+        "Casi siempre",
+        "Siempre"
+       ],
+       "rev": false
+      },
+      {
+       "id": "anx3",
+       "type": "scale",
+       "text": "¿Te preocupas demasiado por distintas cosas a la vez?",
+       "dim": "anxiety",
+       "labels": [
+        "Nunca",
+        "Pocas veces",
+        "A veces",
+        "Casi siempre",
+        "Siempre"
+       ],
+       "rev": false
+      },
+      {
+       "id": "anx4",
+       "type": "scale",
+       "text": "¿Te ha costado relajarte?",
+       "dim": "anxiety",
+       "labels": [
+        "Nunca",
+        "Pocas veces",
+        "A veces",
+        "Casi siempre",
+        "Siempre"
+       ],
+       "rev": false
+      },
+      {
+       "id": "anx5",
+       "type": "scale",
+       "text": "¿Has notado el corazón acelerado, falta de aire o tensión muscular?",
+       "dim": "anxiety",
+       "labels": [
+        "Nunca",
+        "Pocas veces",
+        "A veces",
+        "Casi siempre",
+        "Siempre"
+       ],
+       "rev": false
+      }
+     ]
+    },
+    {
+     "title": "Vida académica",
+     "intro": "Cuéntanos cómo va tu carga y tus parciales.",
+     "questions": [
+      {
+       "id": "str1",
+       "type": "scale",
+       "text": "¿Cuánto te agobia la carga académica de este semestre?",
+       "dim": "stress",
+       "labels": [
+        "Nada",
+        "Poco",
+        "Algo",
+        "Bastante",
+        "Mucho"
+       ],
+       "rev": false
+      },
+      {
+       "id": "str2",
+       "type": "scale",
+       "text": "¿Cuánto miedo o tensión te dan los parciales?",
+       "dim": "stress",
+       "labels": [
+        "Nada",
+        "Poco",
+        "Algo",
+        "Bastante",
+        "Mucho"
+       ],
+       "rev": false
+      },
+      {
+       "id": "str3",
+       "type": "scale",
+       "text": "¿Sientes que no te alcanza el tiempo para todo?",
+       "dim": "stress",
+       "labels": [
+        "Nunca",
+        "Pocas veces",
+        "A veces",
+        "Casi siempre",
+        "Siempre"
+       ],
+       "rev": false
+      },
+      {
+       "id": "str4",
+       "type": "scale",
+       "text": "¿Sientes mucha presión por sacar buenas notas?",
+       "dim": "stress",
+       "labels": [
+        "Nada",
+        "Poco",
+        "Algo",
+        "Bastante",
+        "Mucho"
+       ],
+       "rev": false
+      },
+      {
+       "id": "str5",
+       "type": "scale",
+       "text": "¿Confías en que puedes aprobar tus materias?",
+       "dim": "stress",
+       "labels": [
+        "Muy en desacuerdo",
+        "En desacuerdo",
+        "Neutral",
+        "De acuerdo",
+        "Muy de acuerdo"
+       ],
+       "rev": true
+      },
+      {
+       "id": "sem",
+       "type": "choice",
+       "text": "¿En qué semestre vas?",
+       "options": [
+        "1-2",
+        "3-4",
+        "5-6",
+        "7-8",
+        "9 o más"
+       ]
+      },
+      {
+       "id": "mat",
+       "type": "text",
+       "text": "¿Qué materia te preocupa más ahora mismo?",
+       "placeholder": "Ej: Cálculo, Bases de datos…"
+      }
+     ]
+    },
+    {
+     "title": "Sueño y hábitos",
+     "intro": "",
+     "questions": [
+      {
+       "id": "sleep1",
+       "type": "scale",
+       "text": "¿Cómo ha sido la calidad de tu sueño?",
+       "dim": "sleep",
+       "labels": [
+        "Muy mal",
+        "Mal",
+        "Regular",
+        "Bien",
+        "Muy bien"
+       ],
+       "rev": false
+      },
+      {
+       "id": "sleep2",
+       "type": "scale",
+       "text": "¿Cuántas noches de la semana duermes lo suficiente?",
+       "dim": "sleep",
+       "labels": [
+        "0-1",
+        "2-3",
+        "4-5",
+        "6",
+        "7"
+       ],
+       "rev": false
+      },
+      {
+       "id": "sleep3",
+       "type": "scale",
+       "text": "¿Te despiertas cansado/a durante el día?",
+       "dim": "sleep",
+       "labels": [
+        "Nunca",
+        "Pocas veces",
+        "A veces",
+        "Casi siempre",
+        "Siempre"
+       ],
+       "rev": true
+      },
+      {
+       "id": "hab1",
+       "type": "scale",
+       "text": "¿Comes de forma regular durante el día?",
+       "dim": "habits",
+       "labels": [
+        "Nunca",
+        "Pocas veces",
+        "A veces",
+        "Casi siempre",
+        "Siempre"
+       ],
+       "rev": false
+      },
+      {
+       "id": "hab2",
+       "type": "scale",
+       "text": "¿Haces algo de movimiento o ejercicio?",
+       "dim": "habits",
+       "labels": [
+        "Nunca",
+        "Pocas veces",
+        "A veces",
+        "Casi siempre",
+        "Siempre"
+       ],
+       "rev": false
+      },
+      {
+       "id": "hab3",
+       "type": "scale",
+       "text": "¿Pasas muchas horas en el celular, redes o videojuegos de más?",
+       "dim": "habits",
+       "labels": [
+        "Nunca",
+        "Pocas veces",
+        "A veces",
+        "Casi siempre",
+        "Siempre"
+       ],
+       "rev": true
+      }
+     ]
+    },
+    {
+     "title": "Apoyo y entorno",
+     "intro": "",
+     "questions": [
+      {
+       "id": "sup1",
+       "type": "scale",
+       "text": "¿Tienes con quién hablar cuando algo te preocupa?",
+       "dim": "support",
+       "labels": [
+        "Nunca",
+        "Pocas veces",
+        "A veces",
+        "Casi siempre",
+        "Siempre"
+       ],
+       "rev": false
+      },
+      {
+       "id": "sup2",
+       "type": "scale",
+       "text": "¿Te has sentido solo/a?",
+       "dim": "support",
+       "labels": [
+        "Nunca",
+        "Pocas veces",
+        "A veces",
+        "Casi siempre",
+        "Siempre"
+       ],
+       "rev": true
+      },
+      {
+       "id": "sup3",
+       "type": "scale",
+       "text": "¿Te sientes parte de un grupo de compañeros o amigos en la universidad?",
+       "dim": "support",
+       "labels": [
+        "Muy en desacuerdo",
+        "En desacuerdo",
+        "Neutral",
+        "De acuerdo",
+        "Muy de acuerdo"
+       ],
+       "rev": false
+      },
+      {
+       "id": "vive",
+       "type": "choice",
+       "text": "¿Con quién vives?",
+       "options": [
+        "Con mi familia",
+        "Solo/a",
+        "Con compañeros",
+        "Otra"
+       ]
+      },
+      {
+       "id": "trabaja",
+       "type": "choice",
+       "text": "¿Trabajas además de estudiar?",
+       "options": [
+        "No",
+        "Medio tiempo",
+        "Tiempo completo"
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Permanencia en la carrera",
+     "intro": "Esto nos ayuda a acompañarte si piensas dejar materias.",
+     "questions": [
+      {
+       "id": "drop1",
+       "type": "scale",
+       "text": "¿Qué tantas ganas has tenido de dejar materias o la carrera?",
+       "dim": "dropout",
+       "labels": [
+        "Nada",
+        "Poco",
+        "Algo",
+        "Bastante",
+        "Mucho"
+       ],
+       "rev": false
+      },
+      {
+       "id": "drop2",
+       "type": "scale",
+       "text": "¿Sientes que tu carrera es lo que quieres?",
+       "dim": "dropout",
+       "labels": [
+        "Muy en desacuerdo",
+        "En desacuerdo",
+        "Neutral",
+        "De acuerdo",
+        "Muy de acuerdo"
+       ],
+       "rev": true
+      },
+      {
+       "id": "drop3",
+       "type": "scale",
+       "text": "¿Te preocupa el dinero para continuar estudiando?",
+       "dim": "money",
+       "labels": [
+        "Nada",
+        "Poco",
+        "Algo",
+        "Bastante",
+        "Mucho"
+       ],
+       "rev": false
+      }
+     ]
+    },
+    {
+     "title": "Tu seguridad",
+     "intro": "Gracias por responder esta pregunta; es muy importante.",
+     "questions": [
+      {
+       "id": "seguridad",
+       "type": "choice",
+       "text": "En las últimas 2 semanas, ¿has tenido pensamientos de hacerte daño o de que sería mejor no estar?",
+       "options": [
+        "Nunca",
+        "Alguna vez",
+        "Varias veces",
+        "Ahora mismo"
+       ],
+       "dim": "seguridad"
+      }
+     ]
+    },
+    {
+     "title": "En tus palabras",
+     "intro": "",
+     "questions": [
+      {
+       "id": "open1",
+       "type": "text",
+       "text": "¿Qué es lo que más te preocupa en este momento?",
+       "placeholder": "Escribe lo que quieras…"
+      },
+      {
+       "id": "open2",
+       "type": "text",
+       "text": "¿Qué te ayudaría más de SerenIA?",
+       "placeholder": "Ej: calmarme, organizar mi estudio…"
+      }
+     ]
+    }
+   ]
+  },
+  "parciales": {
+   "title": "Semana de parciales",
+   "sections": [
+    {
+     "title": "Semana de parciales",
+     "intro": "Unas preguntas rápidas para acompañarte mejor.",
+     "questions": [
+      {
+       "id": "mood1",
+       "type": "scale",
+       "text": "¿Cómo está tu ánimo estos días?",
+       "dim": "mood",
+       "labels": [
+        "Muy mal",
+        "Mal",
+        "Regular",
+        "Bien",
+        "Muy bien"
+       ],
+       "rev": false
+      },
+      {
+       "id": "anx1",
+       "type": "scale",
+       "text": "¿Te has sentido nervioso/a o con los nervios de punta?",
+       "dim": "anxiety",
+       "labels": [
+        "Nunca",
+        "Pocas veces",
+        "A veces",
+        "Casi siempre",
+        "Siempre"
+       ],
+       "rev": false
+      },
+      {
+       "id": "anx2",
+       "type": "scale",
+       "text": "¿Te ha costado parar la preocupación por los exámenes?",
+       "dim": "anxiety",
+       "labels": [
+        "Nunca",
+        "Pocas veces",
+        "A veces",
+        "Casi siempre",
+        "Siempre"
+       ],
+       "rev": false
+      },
+      {
+       "id": "str2",
+       "type": "scale",
+       "text": "¿Cuánto miedo o tensión te dan los parciales?",
+       "dim": "stress",
+       "labels": [
+        "Nada",
+        "Poco",
+        "Algo",
+        "Bastante",
+        "Mucho"
+       ],
+       "rev": false
+      },
+      {
+       "id": "str3",
+       "type": "scale",
+       "text": "¿Sientes que no te alcanza el tiempo para estudiar?",
+       "dim": "stress",
+       "labels": [
+        "Nunca",
+        "Pocas veces",
+        "A veces",
+        "Casi siempre",
+        "Siempre"
+       ],
+       "rev": false
+      },
+      {
+       "id": "str5",
+       "type": "scale",
+       "text": "¿Confías en que vas a rendir bien?",
+       "dim": "stress",
+       "labels": [
+        "Muy en desacuerdo",
+        "En desacuerdo",
+        "Neutral",
+        "De acuerdo",
+        "Muy de acuerdo"
+       ],
+       "rev": true
+      },
+      {
+       "id": "sleep1",
+       "type": "scale",
+       "text": "¿Cómo has dormido esta semana?",
+       "dim": "sleep",
+       "labels": [
+        "Muy mal",
+        "Mal",
+        "Regular",
+        "Bien",
+        "Muy bien"
+       ],
+       "rev": false
+      },
+      {
+       "id": "hab1",
+       "type": "scale",
+       "text": "¿Estás comiendo y descansando entre sesiones de estudio?",
+       "dim": "habits",
+       "labels": [
+        "Nunca",
+        "Pocas veces",
+        "A veces",
+        "Casi siempre",
+        "Siempre"
+       ],
+       "rev": false
+      },
+      {
+       "id": "sup1",
+       "type": "scale",
+       "text": "¿Tienes con quién hablar si te sientes abrumado/a?",
+       "dim": "support",
+       "labels": [
+        "Nunca",
+        "Pocas veces",
+        "A veces",
+        "Casi siempre",
+        "Siempre"
+       ],
+       "rev": false
+      },
+      {
+       "id": "drop1",
+       "type": "scale",
+       "text": "¿Has pensado en cancelar o dejar alguna materia?",
+       "dim": "dropout",
+       "labels": [
+        "Nada",
+        "Poco",
+        "Algo",
+        "Bastante",
+        "Mucho"
+       ],
+       "rev": false
+      },
+      {
+       "id": "seguridad",
+       "type": "choice",
+       "text": "En las últimas 2 semanas, ¿has tenido pensamientos de hacerte daño o de que sería mejor no estar?",
+       "options": [
+        "Nunca",
+        "Alguna vez",
+        "Varias veces",
+        "Ahora mismo"
+       ],
+       "dim": "seguridad"
+      },
+      {
+       "id": "mat",
+       "type": "text",
+       "text": "¿Qué materia o parcial te pesa más?",
+       "placeholder": "Ej: Cálculo, parcial del jueves…"
+      },
+      {
+       "id": "open1",
+       "type": "text",
+       "text": "¿Algo más que quieras contarnos?",
+       "placeholder": ""
+      }
+     ]
+    }
+   ]
+  },
+  "seguimiento": {
+   "title": "Check-in emocional",
+   "sections": [
+    {
+     "title": "Check-in rápido",
+     "intro": "",
+     "questions": [
+      {
+       "id": "mood1",
+       "type": "scale",
+       "text": "¿Cómo está tu ánimo hoy?",
+       "dim": "mood",
+       "labels": [
+        "Muy mal",
+        "Mal",
+        "Regular",
+        "Bien",
+        "Muy bien"
+       ],
+       "rev": false
+      },
+      {
+       "id": "anx1",
+       "type": "scale",
+       "text": "¿Qué tan nervioso/a te sientes hoy?",
+       "dim": "anxiety",
+       "labels": [
+        "Nada",
+        "Poco",
+        "Algo",
+        "Bastante",
+        "Mucho"
+       ],
+       "rev": false
+      },
+      {
+       "id": "str2",
+       "type": "scale",
+       "text": "¿Qué tan estresado/a estás?",
+       "dim": "stress",
+       "labels": [
+        "Nada",
+        "Poco",
+        "Algo",
+        "Bastante",
+        "Mucho"
+       ],
+       "rev": false
+      },
+      {
+       "id": "sleep1",
+       "type": "scale",
+       "text": "¿Cómo dormiste anoche?",
+       "dim": "sleep",
+       "labels": [
+        "Muy mal",
+        "Mal",
+        "Regular",
+        "Bien",
+        "Muy bien"
+       ],
+       "rev": false
+      },
+      {
+       "id": "drop1",
+       "type": "scale",
+       "text": "¿Ganas de dejar materias hoy?",
+       "dim": "dropout",
+       "labels": [
+        "Nada",
+        "Poco",
+        "Algo",
+        "Bastante",
+        "Mucho"
+       ],
+       "rev": false
+      },
+      {
+       "id": "open1",
+       "type": "text",
+       "text": "¿Algo más que quieras contar?",
+       "placeholder": ""
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

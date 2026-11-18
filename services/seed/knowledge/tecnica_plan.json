@@ -1,0 +1,19 @@
+{
+  "id": "tecnica_plan",
+  "title": "Divide tu parcial",
+  "category": "tecnica",
+  "keys": [
+    "parcial",
+    "dividir",
+    "plan"
+  ],
+  "para": "convertir un parcial enorme en pasos pequeños",
+  "duracion": "10 min",
+  "pasos": [
+    "Escribe la materia que más te pesa",
+    "Divídela en 3 temas",
+    "Elige solo UNO para los próximos 25 minutos"
+  ],
+  "nota": "",
+  "resumen": "Divide tu parcial: convertir un parcial enorme en pasos pequeños. Duración: 10 min."
+}

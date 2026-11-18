@@ -1,0 +1,21 @@
+{
+  "id": "tecnica_feynman",
+  "title": "Técnica Feynman",
+  "category": "tecnica",
+  "keys": [
+    "entender",
+    "feynman",
+    "explicar",
+    "memoria"
+  ],
+  "para": "comprobar que entiendes un tema",
+  "duracion": "15 min",
+  "pasos": [
+    "Elige un tema",
+    "Explícalo en voz alta con palabras simples",
+    "Detecta dónde te trabas",
+    "Vuelve al material y simplifica"
+  ],
+  "nota": "",
+  "resumen": "Técnica Feynman: comprobar que entiendes un tema. Duración: 15 min."
+}

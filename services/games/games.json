@@ -1,0 +1,358 @@
+{
+ "version": 1,
+ "games": [
+  {
+   "id": "respira",
+   "name": "Respira con el círculo",
+   "tag": "Calma",
+   "cat": "calma",
+   "d": "Sigue el círculo: inhala al crecer, exhala al encoger.",
+   "type": "breath",
+   "phases": [
+    [
+     "Inhala",
+     4,
+     1.5
+    ],
+    [
+     "Exhala",
+     6,
+     1
+    ]
+   ],
+   "cycles": 6
+  },
+  {
+   "id": "resp478",
+   "name": "Respiración 4-7-8",
+   "tag": "Calma",
+   "cat": "calma",
+   "d": "Técnica guiada para bajar la ansiedad y dormir mejor.",
+   "type": "breath",
+   "phases": [
+    [
+     "Inhala",
+     4,
+     1.5
+    ],
+    [
+     "Sostén",
+     7,
+     1.5
+    ],
+    [
+     "Exhala",
+     8,
+     1
+    ]
+   ],
+   "cycles": 4
+  },
+  {
+   "id": "caja",
+   "name": "Respiración en caja",
+   "tag": "Calma",
+   "cat": "calma",
+   "d": "4-4-4-4: ideal antes de un examen o una exposición.",
+   "type": "breath",
+   "phases": [
+    [
+     "Inhala",
+     4,
+     1.5
+    ],
+    [
+     "Sostén",
+     4,
+     1.5
+    ],
+    [
+     "Exhala",
+     4,
+     1
+    ],
+    [
+     "Pausa",
+     4,
+     1
+    ]
+   ],
+   "cycles": 5
+  },
+  {
+   "id": "ground",
+   "name": "Anclaje 5-4-3-2-1",
+   "tag": "Calma",
+   "cat": "calma",
+   "d": "Vuelve al presente escribiendo lo que percibes.",
+   "type": "write",
+   "intro": "Escribe lo que notas ahora mismo con cada sentido.",
+   "steps": [
+    {
+     "ask": "Escribe 5 cosas que VES",
+     "placeholder": "Ej: mi cuaderno, la ventana…",
+     "kind": "text",
+     "optional": false
+    },
+    {
+     "ask": "Escribe 4 cosas que puedes TOCAR",
+     "placeholder": "",
+     "kind": "text",
+     "optional": false
+    },
+    {
+     "ask": "Escribe 3 cosas que ESCUCHAS",
+     "placeholder": "",
+     "kind": "text",
+     "optional": false
+    },
+    {
+     "ask": "Escribe 2 cosas que HUELES",
+     "placeholder": "",
+     "kind": "text",
+     "optional": true
+    },
+    {
+     "ask": "Escribe 1 cosa que SABOREAS",
+     "placeholder": "",
+     "kind": "text",
+     "optional": true
+    }
+   ]
+  },
+  {
+   "id": "burbujas",
+   "name": "Revienta burbujas",
+   "tag": "Ánimo",
+   "cat": "animo",
+   "d": "Un respiro divertido para recuperar energía.",
+   "type": "bubbles"
+  },
+  {
+   "id": "gratitud",
+   "name": "3 cosas buenas",
+   "tag": "Ánimo",
+   "cat": "animo",
+   "d": "Entrena tu mente para notar lo positivo.",
+   "type": "write",
+   "intro": "Piensa en tu día, por pequeño que haya sido.",
+   "steps": [
+    {
+     "ask": "Escribe algo bueno que te pasó hoy",
+     "placeholder": "Ej: un café rico, un mensaje de un amigo…",
+     "kind": "text",
+     "optional": false
+    },
+    {
+     "ask": "Escribe algo que agradeces",
+     "placeholder": "",
+     "kind": "text",
+     "optional": false
+    },
+    {
+     "ask": "¿Quién te hizo sentir bien últimamente y por qué?",
+     "placeholder": "",
+     "kind": "text",
+     "optional": false
+    }
+   ]
+  },
+  {
+   "id": "micro",
+   "name": "Micro-reto de 2 minutos",
+   "tag": "Ánimo",
+   "cat": "animo",
+   "d": "Pequeñas acciones para ponerte en marcha.",
+   "type": "write",
+   "intro": "Hazlo de verdad, son solo 2 minutos.",
+   "steps": [
+    {
+     "ask": "Levántate y toma agua. Cuando termines, ¿cómo te sientes? (1 palabra)",
+     "placeholder": "Ej: mejor, igual…",
+     "kind": "text",
+     "optional": false
+    },
+    {
+     "ask": "Estira brazos y cuello 1 minuto. ¿Qué notaste en tu cuerpo?",
+     "placeholder": "",
+     "kind": "text",
+     "optional": false
+    },
+    {
+     "ask": "Escribe una tarea mínima que harás hoy",
+     "placeholder": "",
+     "kind": "text",
+     "optional": false
+    }
+   ]
+  },
+  {
+   "id": "registro",
+   "name": "Registro de pensamientos",
+   "tag": "Calma",
+   "cat": "calma",
+   "d": "Cuestiona un pensamiento que te angustia.",
+   "type": "write",
+   "intro": "Piensa en algo que te esté preocupando ahora.",
+   "steps": [
+    {
+     "ask": "¿Qué pasó? (la situación)",
+     "placeholder": "",
+     "kind": "text",
+     "optional": false
+    },
+    {
+     "ask": "¿Qué pensaste en ese momento?",
+     "placeholder": "",
+     "kind": "text",
+     "optional": false
+    },
+    {
+     "ask": "¿Qué emoción sentiste y de 1 a 10 qué tan fuerte?",
+     "placeholder": "Ej: ansiedad, 8",
+     "kind": "text",
+     "optional": false
+    },
+    {
+     "ask": "¿Qué evidencia hay a favor y en contra de ese pensamiento?",
+     "placeholder": "",
+     "kind": "long",
+     "optional": false
+    },
+    {
+     "ask": "Escribe un pensamiento alternativo más justo y amable",
+     "placeholder": "",
+     "kind": "long",
+     "optional": false
+    }
+   ]
+  },
+  {
+   "id": "carta",
+   "name": "Carta que no envías",
+   "tag": "Desahogo",
+   "cat": "desahogo",
+   "d": "Suelta lo que sientes sin filtros; nadie la envía.",
+   "type": "write",
+   "intro": "Escribe a la persona o situación que te duele o te enoja.",
+   "steps": [
+    {
+     "ask": "Querido/a… (escribe lo que quisieras decirle)",
+     "placeholder": "Sin filtros. Esto es solo para ti y SerenIA.",
+     "kind": "long",
+     "optional": false
+    },
+    {
+     "ask": "¿Qué necesitas ahora para sentirte un poco mejor?",
+     "placeholder": "",
+     "kind": "text",
+     "optional": false
+    }
+   ]
+  },
+  {
+   "id": "sobrti",
+   "name": "Cosas de ti",
+   "tag": "Autoestima",
+   "cat": "autoestima",
+   "d": "Recuerda lo que sí eres y lo que sí has logrado.",
+   "type": "write",
+   "intro": "Responde con calma, sin compararte.",
+   "steps": [
+    {
+     "ask": "Escribe 3 cualidades que te gustan de ti",
+     "placeholder": "Ej: soy constante, soy buena amiga…",
+     "kind": "text",
+     "optional": false
+    },
+    {
+     "ask": "¿Qué logro reciente, aunque sea pequeño, te hizo sentir orgullo?",
+     "placeholder": "",
+     "kind": "text",
+     "optional": false
+    },
+    {
+     "ask": "¿Qué le dirías a un amigo que estuviera en tu situación?",
+     "placeholder": "",
+     "kind": "long",
+     "optional": false
+    },
+    {
+     "ask": "¿Qué te gustaría que la gente supiera de ti?",
+     "placeholder": "",
+     "kind": "text",
+     "optional": true
+    }
+   ]
+  },
+  {
+   "id": "conexion",
+   "name": "Un paso hacia alguien",
+   "tag": "Conexión",
+   "cat": "animo",
+   "d": "Un pequeño gesto contra la soledad.",
+   "type": "write",
+   "intro": "La conexión se construye con gestos pequeños.",
+   "steps": [
+    {
+     "ask": "¿A quién podrías escribirle hoy? (un amigo, familiar, compañero)",
+     "placeholder": "",
+     "kind": "text",
+     "optional": false
+    },
+    {
+     "ask": "Escribe el mensaje que le enviarías",
+     "placeholder": "Ej: Hola, ¿cómo vas? Hace rato no hablamos…",
+     "kind": "long",
+     "optional": false
+    },
+    {
+     "ask": "¿Qué actividad en el campus te gustaría probar para conocer gente?",
+     "placeholder": "",
+     "kind": "text",
+     "optional": true
+    }
+   ]
+  },
+  {
+   "id": "planner",
+   "name": "Planea tu parcial",
+   "tag": "Estudio",
+   "cat": "estudio",
+   "d": "Divide el parcial en temas, ordénalos y arma un plan con bloques de estudio y temporizador.",
+   "type": "planner"
+  },
+  {
+   "id": "balance",
+   "name": "Balanza de pensamientos",
+   "tag": "Calma",
+   "cat": "calma",
+   "d": "Pon en la balanza las pruebas a favor y en contra de un pensamiento que te agobia.",
+   "type": "balance"
+  },
+  {
+   "id": "control",
+   "name": "Círculo de control",
+   "tag": "Calma",
+   "cat": "calma",
+   "d": "Separa lo que sí depende de ti de lo que no, y elige un primer paso.",
+   "type": "control"
+  },
+  {
+   "id": "body",
+   "name": "Escáner corporal",
+   "tag": "Calma",
+   "cat": "calma",
+   "d": "Toca las zonas donde sientes tensión y suéltalas con una guía.",
+   "type": "body"
+  },
+  {
+   "id": "garden",
+   "name": "Jardín de gratitud",
+   "tag": "Ánimo",
+   "cat": "animo",
+   "d": "Cada cosa buena que escribas hace florecer una flor en tu jardín.",
+   "type": "garden"
+  }
+ ]
+}

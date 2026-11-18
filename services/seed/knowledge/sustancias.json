@@ -1,0 +1,32 @@
+{
+  "id": "sustancias",
+  "title": "Alcohol y otras sustancias",
+  "category": "habito",
+  "keys": [
+    "alcohol",
+    "tomar mucho",
+    "emborrach",
+    "marihuana",
+    "droga",
+    "cigarrillo",
+    "vapeo",
+    "sustancias",
+    "consumo"
+  ],
+  "resumen": "Las sustancias pueden aliviar un momento pero empeoran ansiedad, sueño y ánimo. Hablarlo sin juicio es el primer paso.",
+  "tecnicas": [
+    "Notar para qué se usa (escape, social, sueño, estrés)",
+    "Buscar alternativas para ese propósito",
+    "Reducir con metas realistas y apoyo",
+    "Evitar mezclar y no conducir",
+    "Consultar con profesionales si hay dependencia"
+  ],
+  "frases_de_validacion": [
+    "Gracias por contármelo sin rodeos"
+  ],
+  "preguntas_abiertas": [
+    "¿Qué buscas aliviar cuando lo haces?"
+  ],
+  "alerta": "Consumo que genera pérdida de control, síntomas al dejarlo o riesgos.",
+  "cuando_derivar": "Bienestar, EPS o líneas de salud mental (192 opción 4)."
+}

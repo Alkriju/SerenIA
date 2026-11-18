@@ -1,0 +1,32 @@
+{
+  "id": "redes_sociales",
+  "title": "Redes sociales y pantallas",
+  "category": "habito",
+  "keys": [
+    "redes sociales",
+    "tiktok",
+    "instagram",
+    "celular",
+    "adicción al celular",
+    "scroll",
+    "pantallas",
+    "videojuegos"
+  ],
+  "resumen": "El uso excesivo de pantallas quita sueño y tiempo, y las comparaciones en redes pueden bajar el ánimo.",
+  "tecnicas": [
+    "Desactivar notificaciones no esenciales",
+    "Horas sin celular al estudiar y antes de dormir",
+    "Dejar el celular cargando fuera de la cama",
+    "Reemplazar el scroll por una actividad corta (caminar, llamar a alguien)",
+    "Seguir cuentas que sumen"
+  ],
+  "frases_de_validacion": [
+    "Es muy fácil quedar atrapado/a, no eres el único/a"
+  ],
+  "preguntas_abiertas": [
+    "¿Cuánto tiempo sientes que te quita?",
+    "¿Qué harías con esa hora?"
+  ],
+  "alerta": "",
+  "cuando_derivar": ""
+}

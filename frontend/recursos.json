@@ -1,0 +1,367 @@
+{
+ "tecnicas": [
+  {
+   "id": "tecnica_resp478",
+   "title": "Respiración 4-7-8",
+   "para": "calmar ansiedad y conciliar el sueño",
+   "duracion": "2 min",
+   "pasos": [
+    "Siéntate cómodo/a, espalda recta",
+    "Inhala por la nariz contando 4",
+    "Sostén el aire contando 7",
+    "Exhala lento por la boca contando 8",
+    "Repite 4 veces"
+   ],
+   "nota": "Si te mareas, hazlo más suave y con menos tiempo.",
+   "icono": "🌬️",
+   "acentos": "🫧 😮‍💨 💤",
+   "practica": "resp478",
+   "ejemplo": "Antes de dormir: inhalas 4 contando mentalmente 1-2-3-4, sostienes hasta 7 y sueltas el aire como si apagaras una vela hasta 8."
+  },
+  {
+   "id": "tecnica_caja",
+   "title": "Respiración en caja",
+   "para": "enfocarte antes de un examen o exposición",
+   "duracion": "3 min",
+   "pasos": [
+    "Inhala 4 segundos",
+    "Sostén 4",
+    "Exhala 4",
+    "Sostén 4 con los pulmones vacíos",
+    "Repite 5 a 8 ciclos"
+   ],
+   "nota": "",
+   "icono": "⬜",
+   "acentos": "🔷 ⏱️ 🧘",
+   "practica": "caja",
+   "ejemplo": "Antes de exponer: inhala mientras dibujas con la mirada el lado de un cuadrado, sostén en la esquina, exhala en el siguiente lado."
+  },
+  {
+   "id": "tecnica_anclaje",
+   "title": "Anclaje 5-4-3-2-1",
+   "para": "volver al presente en ansiedad o pánico",
+   "duracion": "3 min",
+   "pasos": [
+    "Nombra 5 cosas que ves",
+    "4 que puedes tocar",
+    "3 que escuchas",
+    "2 que hueles",
+    "1 que saboreas"
+   ],
+   "nota": "",
+   "icono": "🖐️",
+   "acentos": "👀 👂 👃",
+   "practica": "ground",
+   "ejemplo": "Estás en la biblioteca y te late fuerte el corazón: ves 5 (lámpara, libro, ventana, mesa, bolso), tocas 4 (la silla, tu ropa…)."
+  },
+  {
+   "id": "tecnica_relajacion",
+   "title": "Relajación muscular progresiva",
+   "para": "soltar tensión física y dormir mejor",
+   "duracion": "8-10 min",
+   "pasos": [
+    "Aprieta los puños 5 segundos y suelta",
+    "Brazos, hombros, cara",
+    "Abdomen y piernas",
+    "Nota la diferencia entre tensión y relajación",
+    "Termina con 3 respiraciones lentas"
+   ],
+   "nota": "",
+   "icono": "💆",
+   "acentos": "🌿 🫶 😌",
+   "practica": "body",
+   "ejemplo": "Aprietas los puños 5 segundos, sientes el calor y la tensión, y al soltar notas cómo la mano se vuelve pesada y tibia."
+  },
+  {
+   "id": "tecnica_pomodoro",
+   "title": "Técnica Pomodoro",
+   "para": "estudiar con enfoque y descansos",
+   "duracion": "25 + 5 min",
+   "pasos": [
+    "Elige una tarea concreta",
+    "Temporizador de 25 minutos sin celular",
+    "Descansa 5 minutos y muévete",
+    "Después de 4 bloques, descanso largo de 15-20 min"
+   ],
+   "nota": "",
+   "icono": "🍅",
+   "acentos": "⏱️ 📚 ☕",
+   "practica": "planner",
+   "ejemplo": "Cálculo II: 25 min de derivadas sin celular, 5 min de agua y estiramiento. Cuatro rondas y descanso largo."
+  },
+  {
+   "id": "tecnica_feynman",
+   "title": "Técnica Feynman",
+   "para": "comprobar que entiendes un tema",
+   "duracion": "15 min",
+   "pasos": [
+    "Elige un tema",
+    "Explícalo en voz alta con palabras simples",
+    "Detecta dónde te trabas",
+    "Vuelve al material y simplifica"
+   ],
+   "nota": "",
+   "icono": "🧠",
+   "acentos": "💡 🗣️ ✨",
+   "practica": "",
+   "ejemplo": "Explicas 'qué es una llave foránea' a tu hermano sin usar tecnicismos. Donde te trabas, ahí debes repasar."
+  },
+  {
+   "id": "tecnica_repaso",
+   "title": "Repaso espaciado",
+   "para": "retener información para parciales",
+   "duracion": "10 min al día",
+   "pasos": [
+    "Estudia el tema hoy",
+    "Repásalo mañana con preguntas",
+    "Otra vez en 3 días",
+    "Y otra a la semana"
+   ],
+   "nota": "",
+   "icono": "🔁",
+   "acentos": "📅 🧩 ✅",
+   "practica": "planner",
+   "ejemplo": "Estudias normalización hoy; mañana te haces 5 preguntas sin mirar; a los 3 días otras 5; a la semana un mini-quiz."
+  },
+  {
+   "id": "tecnica_registro",
+   "title": "Registro de pensamientos",
+   "para": "cuestionar pensamientos que te angustian",
+   "duracion": "10 min",
+   "pasos": [
+    "Situación: ¿qué pasó?",
+    "Pensamiento automático: ¿qué pensé?",
+    "Emoción e intensidad (1-10)",
+    "Evidencia a favor y en contra",
+    "Pensamiento alternativo más justo"
+   ],
+   "nota": "",
+   "icono": "📓",
+   "acentos": "🔍 ⚖️ 💬",
+   "practica": "registro",
+   "ejemplo": "Situación: me fue mal en el quiz. Pensamiento: 'soy un fracaso'. Alternativa: 'me fue mal en un quiz y puedo repasar para el siguiente'."
+  },
+  {
+   "id": "tecnica_activacion",
+   "title": "Activación conductual",
+   "para": "salir del ánimo bajo",
+   "duracion": "20 min",
+   "pasos": [
+    "Elige una actividad pequeña de cuidado, de logro o con otra persona",
+    "Prográmala a una hora concreta",
+    "Hazla aunque no tengas ganas",
+    "Anota cómo te sentiste antes y después"
+   ],
+   "nota": "",
+   "icono": "🚶",
+   "acentos": "☀️ 🎧 🌱",
+   "practica": "micro",
+   "ejemplo": "Sin ganas de nada: eliges salir 10 minutos a caminar con música. Antes ánimo 3/10, después 5/10."
+  },
+  {
+   "id": "tecnica_gratitud",
+   "title": "Tres cosas buenas",
+   "para": "entrenar la atención en lo positivo",
+   "duracion": "5 min",
+   "pasos": [
+    "Anota 3 cosas buenas del día, por pequeñas que sean",
+    "Escribe por qué ocurrieron",
+    "Hazlo cada noche por una semana"
+   ],
+   "nota": "",
+   "icono": "🌸",
+   "acentos": "🙏 ✨ 🌼",
+   "practica": "garden",
+   "ejemplo": "Hoy: el café con mi amiga, que salió el bus a tiempo y que mi mamá me llamó."
+  },
+  {
+   "id": "tecnica_autocompasion",
+   "title": "Pausa de autocompasión",
+   "para": "tratarte con amabilidad cuando fallas",
+   "duracion": "3 min",
+   "pasos": [
+    "Reconoce: 'esto es difícil'",
+    "Recuerda: 'a otras personas también les pasa'",
+    "Dite algo amable, como a un amigo",
+    "Pon una mano en el pecho y respira"
+   ],
+   "nota": "",
+   "icono": "💜",
+   "acentos": "🤲 🌷 🫂",
+   "practica": "sobrti",
+   "ejemplo": "Reprobaste un quiz: 'esto duele, a mucha gente le pasa, ¿qué le diría a un amigo?… 'puedes volver a intentarlo'."
+  },
+  {
+   "id": "tecnica_preocupacion",
+   "title": "Hora de la preocupación",
+   "para": "contener la rumiación",
+   "duracion": "15 min",
+   "pasos": [
+    "Elige una hora fija del día",
+    "Anota todo lo que te preocupa",
+    "Marca lo que sí puedes hacer y planea un paso",
+    "Fuera de esa hora, pospón la preocupación"
+   ],
+   "nota": "",
+   "icono": "🕰️",
+   "acentos": "🗒️ 🌀 ✅",
+   "practica": "control",
+   "ejemplo": "A las 6:00 pm anotas todo lo que te preocupa; subrayas lo que puedes hacer; el resto lo dejas para mañana."
+  },
+  {
+   "id": "tecnica_sueno",
+   "title": "Rutina para dormir",
+   "para": "mejorar el sueño",
+   "duracion": "30 min antes de acostarte",
+   "pasos": [
+    "Apaga pantallas",
+    "Luz tenue y baja temperatura",
+    "Escribe pendientes del día siguiente",
+    "Respiración 4-7-8 o relajación muscular",
+    "Si no duermes en 20 min, levántate y haz algo tranquilo"
+   ],
+   "nota": "",
+   "icono": "🌙",
+   "acentos": "⭐ 🛏️ 😴",
+   "practica": "resp478",
+   "ejemplo": "Pantallas fuera a las 10:30, luz tenue, apuntas pendientes del día siguiente y haces 4 respiraciones 4-7-8."
+  },
+  {
+   "id": "tecnica_pausa_activa",
+   "title": "Pausa activa de 2 minutos",
+   "para": "recuperar energía en estudio largo",
+   "duracion": "2 min",
+   "pasos": [
+    "Levántate",
+    "Toma agua",
+    "Estira cuello y hombros",
+    "Mira algo lejano 20 segundos"
+   ],
+   "nota": "",
+   "icono": "🤸",
+   "acentos": "💧 🧍 👀",
+   "practica": "micro",
+   "ejemplo": "Cada hora: te levantas, tomas agua, estiras cuello y miras por la ventana a lo lejos 20 segundos."
+  },
+  {
+   "id": "tecnica_carta",
+   "title": "Carta que no envías",
+   "para": "soltar enojo o dolor",
+   "duracion": "10 min",
+   "pasos": [
+    "Escribe todo lo que quisieras decir",
+    "No lo filtres",
+    "Léela en voz baja",
+    "Guárdala o rómpela y respira"
+   ],
+   "nota": "",
+   "icono": "✉️",
+   "acentos": "🔥 🌧️ 🕊️",
+   "practica": "carta",
+   "ejemplo": "'Querido profe, me sentí injusto con la nota…' La escribes completa, la lees en voz baja y la guardas sin enviar."
+  },
+  {
+   "id": "tecnica_plan",
+   "title": "Divide tu parcial",
+   "para": "convertir un parcial enorme en pasos pequeños",
+   "duracion": "10 min",
+   "pasos": [
+    "Escribe la materia que más te pesa",
+    "Divídela en 3 temas",
+    "Elige solo UNO para los próximos 25 minutos"
+   ],
+   "nota": "",
+   "icono": "🧩",
+   "acentos": "📚 ✂️ ✅",
+   "practica": "planner",
+   "ejemplo": "Parcial de Bases de Datos: 3 temas (SQL, normalización, índices). Hoy solo normalización, 25 minutos."
+  }
+ ],
+ "lineas": [
+  {
+   "nombre": "Emergencias (Colombia)",
+   "numero": "123",
+   "para": "Peligro inmediato para ti o para otra persona",
+   "tel": "123"
+  },
+  {
+   "nombre": "Línea 106 (Bogotá)",
+   "numero": "106",
+   "para": "Salud mental y atención en crisis, gratuita",
+   "tel": "106"
+  },
+  {
+   "nombre": "Línea 192 opción 4 (MinSalud)",
+   "numero": "192 op. 4",
+   "para": "Orientación en salud mental a nivel nacional",
+   "tel": "192"
+  },
+  {
+   "nombre": "Línea 155",
+   "numero": "155",
+   "para": "Orientación a mujeres víctimas de violencia",
+   "tel": "155"
+  },
+  {
+   "nombre": "Línea 141 (ICBF)",
+   "numero": "141",
+   "para": "Protección de niños, niñas y adolescentes",
+   "tel": "141"
+  },
+  {
+   "nombre": "Fiscalía (denuncias)",
+   "numero": "122",
+   "para": "Denunciar delitos",
+   "tel": "122"
+  }
+ ],
+ "bienestar": [
+  {
+   "titulo": "Acompañamiento psicosocial",
+   "texto": "Citas de orientación con psicología. Pregunta en Bienestar de tu sede cómo agendar."
+  },
+  {
+   "titulo": "Apoyos económicos y becas",
+   "texto": "Información sobre becas, descuentos, plan de pagos y alternativas de financiación."
+  },
+  {
+   "titulo": "Salud y primeros auxilios",
+   "texto": "Servicios de salud básica y orientación sobre tu EPS."
+  },
+  {
+   "titulo": "Deporte, cultura y recreación",
+   "texto": "Grupos deportivos, artísticos y culturales para conocer gente y descargar estrés."
+  },
+  {
+   "titulo": "Tutorías y permanencia",
+   "texto": "Apoyo académico, monitorías y programas para evitar la deserción."
+  },
+  {
+   "titulo": "Servicios virtuales",
+   "texto": "Muchas sedes ofrecen orientación en línea y talleres de bienestar."
+  }
+ ],
+ "enlaces": [
+  {
+   "titulo": "UNIMINUTO (portal y Bienestar)",
+   "url": "https://www.uniminuto.edu/",
+   "texto": "Busca 'Bienestar' en el portal de tu sede."
+  },
+  {
+   "titulo": "Ministerio de Salud (salud mental)",
+   "url": "https://www.minsalud.gov.co/",
+   "texto": "Rutas de atención y líneas de ayuda."
+  },
+  {
+   "titulo": "OMS: salud mental",
+   "url": "https://www.who.int/health-topics/mental-health",
+   "texto": "Información confiable sobre salud mental."
+  },
+  {
+   "titulo": "ICETEX",
+   "url": "https://web.icetex.gov.co/",
+   "texto": "Créditos y apoyos para educación superior."
+  }
+ ],
+ "nota": "Verifica los números y enlaces vigentes en tu sede o ciudad. SerenIA no reemplaza la atención profesional."
+}

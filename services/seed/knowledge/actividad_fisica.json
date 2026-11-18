@@ -1,0 +1,29 @@
+{
+  "id": "actividad_fisica",
+  "title": "Movimiento y ánimo",
+  "category": "habito",
+  "keys": [
+    "ejercicio",
+    "deporte",
+    "sedentar",
+    "gimnasio",
+    "caminar",
+    "no me muevo"
+  ],
+  "resumen": "Moverse 20-30 minutos, incluso caminando, mejora el ánimo y baja la ansiedad.",
+  "tecnicas": [
+    "Caminar 10 minutos entre bloques de estudio",
+    "Estiramientos de cuello y hombros cada hora",
+    "Actividades deportivas o culturales del campus",
+    "Moverse con música que guste",
+    "Empezar con metas pequeñas y constantes"
+  ],
+  "frases_de_validacion": [
+    "Tu cuerpo y tu mente se influyen mutuamente"
+  ],
+  "preguntas_abiertas": [
+    "¿Qué tipo de movimiento disfrutas o disfrutabas?"
+  ],
+  "alerta": "",
+  "cuando_derivar": ""
+}

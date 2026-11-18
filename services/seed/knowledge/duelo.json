@@ -1,0 +1,36 @@
+{
+  "id": "duelo",
+  "title": "Duelo y pérdidas",
+  "category": "emocion",
+  "keys": [
+    "murió",
+    "murio",
+    "falleci",
+    "perdí a",
+    "perdi a",
+    "duelo",
+    "ruptura",
+    "terminamos",
+    "se fue",
+    "extraño a"
+  ],
+  "resumen": "El duelo es la respuesta natural a una pérdida (de una persona, relación o etapa) y no tiene un orden fijo ni un tiempo correcto.",
+  "tecnicas": [
+    "Validar que no hay una forma correcta de sentirlo",
+    "Hablar de la persona o escribirle una carta",
+    "Mantener rutinas mínimas: comer, dormir, moverse",
+    "Apoyarse en su red cercana",
+    "Rituales pequeños de despedida o recuerdo",
+    "Darse permiso de tener días buenos sin culpa"
+  ],
+  "frases_de_validacion": [
+    "Lo siento muchísimo",
+    "No hay prisa para sentirte mejor"
+  ],
+  "preguntas_abiertas": [
+    "¿Cómo era esa persona para ti?",
+    "¿Qué necesitas en este momento?"
+  ],
+  "alerta": "Si el dolor impide funcionar por muchos meses o aparece deseo de morir.",
+  "cuando_derivar": "Psicología / Línea 106."
+}

@@ -1,0 +1,35 @@
+{
+  "id": "soledad",
+  "title": "Soledad",
+  "category": "emocion",
+  "keys": [
+    "solo ",
+    "sola ",
+    "soledad",
+    "sin amigos",
+    "no encajo",
+    "aislad",
+    "nadie me entiende",
+    "extraño mi casa",
+    "no tengo con quién"
+  ],
+  "resumen": "La soledad es la distancia entre el vínculo que se desea y el que se tiene. Es muy común al llegar a la universidad o cambiar de ciudad y se puede reducir con pasos pequeños y constantes.",
+  "tecnicas": [
+    "Un contacto pequeño al día: un mensaje o un saludo",
+    "Unirse a una actividad repetida (grupo de estudio, deporte, semillero, club)",
+    "Notar pensamientos como 'nadie me quiere' y ponerlos a prueba",
+    "Usar llamadas con familia o amigos de siempre",
+    "Compañía silenciosa: estudiar en biblioteca o zonas comunes",
+    "Voluntariado: dar ayuda crea vínculo"
+  ],
+  "frases_de_validacion": [
+    "Sentirse solo/a duele, y es más común de lo que parece",
+    "Gracias por decírmelo"
+  ],
+  "preguntas_abiertas": [
+    "¿Con quién te has sentido a gusto alguna vez?",
+    "¿Qué actividad te gustaría probar para conocer gente?"
+  ],
+  "alerta": "Aislamiento total, dejar de salir y de comer o de ir a clase.",
+  "cuando_derivar": "Bienestar Universitario (acompañamiento psicosocial)."
+}

@@ -1,0 +1,35 @@
+{
+  "id": "estres",
+  "title": "Estrés y agobio",
+  "category": "emocion",
+  "keys": [
+    "estrés",
+    "estres",
+    "agobi",
+    "abrumad",
+    "no doy abasto",
+    "mucho trabajo",
+    "sobrecarg",
+    "me ahogo en tareas",
+    "todo junto"
+  ],
+  "resumen": "El agobio aparece cuando las demandas parecen superar los recursos. Ordenar, priorizar y pedir ayuda reduce la sensación de caos.",
+  "tecnicas": [
+    "Volcar todo en una lista (sacar de la cabeza)",
+    "Marcar solo 1-3 prioridades del día (urgente + importante)",
+    "Pedir prórroga, ayuda o aclaración donde sea posible",
+    "Pausas cortas con respiración o caminata",
+    "Decir 'no' o 'después' a lo que no es esencial",
+    "Planear descansos igual que se planean tareas"
+  ],
+  "frases_de_validacion": [
+    "Estás cargando mucho",
+    "Tiene lógica que te sientas desbordado/a"
+  ],
+  "preguntas_abiertas": [
+    "Si pudieras quitar una sola cosa de la lista, ¿cuál sería?",
+    "¿Qué es realmente urgente esta semana?"
+  ],
+  "alerta": "Estrés prolongado con agotamiento físico, dolores de cabeza, irritabilidad constante.",
+  "cuando_derivar": "Bienestar Universitario; médico general."
+}

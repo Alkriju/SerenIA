@@ -1,0 +1,27 @@
+{
+  "id": "tdah_atencion",
+  "title": "Dificultad persistente de atención",
+  "category": "salud",
+  "keys": [
+    "tdah",
+    "déficit de atención",
+    "deficit de atencion",
+    "hiperactiv",
+    "no puedo quedarme quieto"
+  ],
+  "resumen": "Las dificultades persistentes de atención merecen una valoración profesional; mientras tanto, estrategias externas ayudan (temporizadores, listas, ambientes sin distracciones).",
+  "tecnicas": [
+    "Temporizadores y bloques cortos",
+    "Listas visibles y recordatorios",
+    "Espacio de estudio ordenado",
+    "Pedir ajustes razonables a la universidad"
+  ],
+  "frases_de_validacion": [
+    "Hay maneras de organizarse que se pueden aprender"
+  ],
+  "preguntas_abiertas": [
+    "¿Desde cuándo notas estas dificultades?"
+  ],
+  "alerta": "Dificultades desde la infancia o que afectan todo el desempeño.",
+  "cuando_derivar": "Valoración con profesional de salud (EPS / Bienestar). SerenIA no diagnostica."
+}

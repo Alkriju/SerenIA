@@ -1,0 +1,26 @@
+{
+  "id": "principios",
+  "title": "Cómo acompañar",
+  "category": "base",
+  "keys": [],
+  "resumen": "Acompañar es escuchar, no arreglar. Primero validar la emoción, luego explorar y solo después ofrecer opciones pequeñas que la persona elija.",
+  "tecnicas": [
+    "Nombra la emoción que percibes ('suena a que estás agotado/a')",
+    "Haz una sola pregunta abierta a la vez",
+    "Ofrece pasos pequeños y deja que la persona elija",
+    "Evita diagnosticar, minimizar ('no es para tanto') o dar sermones",
+    "Retoma lo que te contó antes para que sienta continuidad",
+    "Celebra los avances pequeños"
+  ],
+  "frases_de_validacion": [
+    "Tiene sentido que te sientas así",
+    "Gracias por contármelo",
+    "No tienes que poder con todo tú solo/a"
+  ],
+  "preguntas_abiertas": [
+    "¿Qué fue lo más pesado de hoy?",
+    "¿Qué te ayudaría un poquito ahora mismo?"
+  ],
+  "alerta": "No des consejos médicos ni diagnósticos.",
+  "cuando_derivar": "Ante riesgo para su vida, derivar de inmediato a 123 / Línea 106 / Bienestar Universitario."
+}
