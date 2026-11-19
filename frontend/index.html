@@ -587,7 +587,7 @@ function setMode(m){cm=m;$('pane_chat').hidden=m!='chat';$('pane_voice').hidden=
 function qs(x){$('t').value=x;send()}
 function send(){const x=$('t').value.trim();if(!x)return;$('t').value='';converse(x,'chat')}
 async function converse(x,m){add('user',x);$('quick').hidden=true;orb.mode='thinking';setStat('Pensando…');const ty=typingRow();
-  try{const r=await post('/api/chat/',{text:x,mode:m});
+  try{const r=await post('/api/chat',{text:x,mode:m});
     const sp=(m=='voice'||$('vz').checked)&&r.reply&&!r.blocked&&!r.error?prepSpeak(r.reply):null;   // la voz se pide ya; el texto sale cuando hay audio (máx. 4 s) para que no se adelante
     if(sp)await Promise.race([sp.first,new Promise(z=>setTimeout(z,4000))]);
     ty.remove();add('assistant',r.reply);cap('SerenIA',r.reply);
@@ -680,7 +680,7 @@ function secGo(d){if(d>0){const miss=SF.sections[si].questions.some(q=>q.type!='
 function closeSurvey(){$('survey').hidden=true}
 function bell(){openSurvey(pendingKind||'seguimiento')}
 async function sendSurvey(){if(SF.sections[si].questions.some(q=>q.type!='text'&&sa[q.id]==null))return toast('Responde todas las preguntas 💜');
-  let r;try{r=await post('/api/survey/',{kind,answers:sa})}catch(e){let d={};try{d=await e.json()}catch(_){}return toast(d.detail||'No se pudo enviar, intenta de nuevo')}
+  let r;try{r=await post('/api/survey',{kind,answers:sa})}catch(e){let d={};try{d=await e.json()}catch(_){}return toast(d.detail||'No se pudo enviar, intenta de nuevo')}
   store.set('last',JSON.stringify({scores:r.scores,note:sa.open1||'',ts:Date.now()}));if(kind==pendingKind){pendingKind=null;$('dot').hidden=true}
   const hi=r.scores.seguridad=='alto';SND.ok();
   $('sf').innerHTML=`<h3 class="sec2" style="margin-top:14px">¡Gracias por contarnos cómo estás! 💜</h3><p class="intro">Tus respuestas le ayudan a SerenIA a acompañarte mejor. Son privadas: solo tú y SerenIA las ven.</p>`

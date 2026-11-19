@@ -112,3 +112,7 @@ def test_en_vercel_encuestas_y_juegos_se_ven_al_instante(monkeypatch):
     import etl
     assert etl.process(cur, etl.marks()) == (0, 0)   # nada pendiente
     cur.execute("SELECT count(*) FROM game_plays WHERE email=%s", ("q@uni.edu",)); assert cur.fetchone()[0] == 1   # y la pasada programada no lo repite
+
+def test_rutas_raiz_con_y_sin_barra_final(cl):
+    for p in ("/api/chat", "/api/chat/", "/api/survey", "/api/survey/"):
+        r = cl.post(p, json={}, headers={"origin": "http://localhost:8000"}); assert r.status_code == 401, (p, r.status_code)   # llega al servicio (pide sesión), no 404/307

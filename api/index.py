@@ -14,6 +14,14 @@ auth, chat, survey, games = (_load(x) for x in ("auth", "chat", "survey", "games
 chat.SUGGEST = games.pick   # el chat pide el juego sugerido en el mismo proceso
 
 app = FastAPI(docs_url=None, redoc_url=None, openapi_url=None)
+class _Slash:
+    """Vercel puede entregar /api/chat o /api/survey sin la barra final; los servicios montados escuchan en '/'. Aquí se unifica para que ambas formas lleguen."""
+    def __init__(self, a): self.a = a
+    async def __call__(self, scope, receive, send):
+        if scope["type"] == "http" and scope["path"] in ("/api/chat", "/api/survey"):
+            scope = dict(scope, path=scope["path"] + "/", raw_path=(scope.get("raw_path") or scope["path"].encode()).rstrip(b"/") + b"/")
+        await self.a(scope, receive, send)
+app.add_middleware(_Slash)
 for prefix, sub in (("/api/auth", auth.app), ("/api/chat", chat.app), ("/api/survey", survey.app), ("/api/games", games.app)): app.mount(prefix, sub)
 
 def _cron_ok(req: Request) -> bool:

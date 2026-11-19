@@ -213,7 +213,7 @@ def _origin_ok(origin: str) -> bool:
     from urllib.parse import urlparse
     o = urlparse(origin); base = urlparse(E.get("BASE_URL", "http://localhost:8000"))
     extra = {x.strip().rstrip("/") for x in E.get("ALLOWED_ORIGINS", "").split(",") if x.strip()}
-    for v in ("VERCEL_URL", "VERCEL_BRANCH_URL"):   # la dirección propia de ESTE despliegue (las vistas previas tienen otra); la pone Vercel, el navegador no puede falsearla
+    for v in ("VERCEL_URL", "VERCEL_BRANCH_URL", "VERCEL_PROJECT_PRODUCTION_URL"):   # la dirección propia de ESTE despliegue (las vistas previas tienen otra); la pone Vercel, el navegador no puede falsearla
         if E.get("VERCEL") and E.get(v): extra.add("https://" + E[v])
     if f"{o.scheme}://{o.netloc}" == f"{base.scheme}://{base.netloc}" or origin.rstrip("/") in extra: return True
     return (not PROD) and o.hostname in ("localhost", "127.0.0.1")

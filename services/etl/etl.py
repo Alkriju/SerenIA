@@ -3,7 +3,7 @@ import json, re, time, psycopg2
 from pymongo.errors import PyMongoError
 from common import *
 import llm
-ETL_ORDER = [p for p in E.get("ETL_LLM_ORDER", "deepseek,qwen").split(",") if p in llm.LIMIT]  # SOLO keys del ETL (.env.etl): Qwen / DeepSeek
+ETL_ORDER = [p.strip() for p in E.get("ETL_LLM_ORDER", "gemini,deepseek,qwen").split(",") if p.strip() in llm.LIMIT]  # por defecto Gemini (mismas keys del chat); Qwen / DeepSeek son opcionales
 import survey as sv
 EMO = ("tristeza", "ansiedad", "estres", "enojo", "alegria", "neutral")
 SYS = ('Eres el paso de transformación (ETL) de una app de apoyo emocional universitaria. Convierte el texto de un estudiante en datos estructurados. Devuelve SOLO JSON válido, sin texto extra: '
