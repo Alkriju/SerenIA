@@ -14,8 +14,24 @@ def offsite():
     return c, E["BACKUP_S3_BUCKET"]
 mongo = MongoClient(E["MONGO_URL"], maxPoolSize=int(E.get("MONGO_POOL", "5")), serverSelectionTimeoutMS=8000, connectTimeoutMS=8000, retryWrites=True).psico
 SERVERLESS = bool(E.get("VERCEL")) or E.get("SERVERLESS") == "1"
+def _dsn():
+    """Cadena de conexión con el certificado de la autoridad (CA) cuando se verifica el servidor (sslmode=verify-full, p. ej. CockroachDB Cloud).
+    DATABASE_CA = el texto del certificado (el archivo ca.crt/root.crt) o ese texto en base64. Sin DATABASE_CA se usan las autoridades públicas de certifi (sirve para Neon, Supabase, etc.)."""
+    import tempfile, base64
+    from psycopg2.extensions import make_dsn
+    url = E["DATABASE_URL"]; ca = E.get("DATABASE_CA", "").strip().replace("\\n", "\n")
+    if "sslrootcert=" in url: return url
+    if ca:
+        pem = ca if "BEGIN CERTIFICATE" in ca else base64.b64decode(ca).decode()
+        path = os.path.join(tempfile.gettempdir(), "serenia-pg-ca-" + hashlib.sha1(pem.encode()).hexdigest()[:10] + ".crt")
+        if not os.path.exists(path):
+            with open(path, "w") as f: f.write(pem if pem.endswith("\n") else pem + "\n")
+        return make_dsn(url, sslrootcert=path)
+    if "sslmode=verify" in url:
+        import certifi; return make_dsn(url, sslrootcert=certifi.where())
+    return url
 def pg():
-    c = psycopg2.connect(E["DATABASE_URL"], connect_timeout=10); c.autocommit = True; return c   # Neon: usa la URL "pooled" (con -pooler en el host)
+    c = psycopg2.connect(_dsn(), connect_timeout=10); c.autocommit = True; return c   # Neon: usa la URL "pooled" (con -pooler en el host)
 SCHEMA_V = "2026-11-17-pg1"   # sube este valor cuando cambies el esquema: init() solo trabaja cuando la versión guardada es distinta
 TABLES = ["CREATE TABLE IF NOT EXISTS users(email TEXT PRIMARY KEY, created TIMESTAMP DEFAULT now())",
       "CREATE TABLE IF NOT EXISTS credentials(email TEXT PRIMARY KEY, salt TEXT, pw_hash TEXT, verified BOOLEAN, code TEXT, code_exp DOUBLE PRECISION, tries INT DEFAULT 0, consent TEXT)",

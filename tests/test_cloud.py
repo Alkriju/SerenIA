@@ -116,3 +116,12 @@ def test_en_vercel_encuestas_y_juegos_se_ven_al_instante(monkeypatch):
 def test_rutas_raiz_con_y_sin_barra_final(cl):
     for p in ("/api/chat", "/api/chat/", "/api/survey", "/api/survey/"):
         r = cl.post(p, json={}, headers={"origin": "http://localhost:8000"}); assert r.status_code == 401, (p, r.status_code)   # llega al servicio (pide sesión), no 404/307
+
+def test_dsn_con_certificado(monkeypatch, tmp_path):
+    pem = "-----BEGIN CERTIFICATE-----\nMIIB\n-----END CERTIFICATE-----"
+    monkeypatch.setitem(os.environ, "DATABASE_URL", "postgresql://u:p%40x@h.example.com:26257/defaultdb?sslmode=verify-full")
+    monkeypatch.setitem(os.environ, "DATABASE_CA", pem)
+    d = common._dsn(); path = d.split("sslrootcert=")[1].split()[0]; assert "password=p@x" in d and open(path).read().startswith("-----BEGIN CERTIFICATE-----")
+    import base64; monkeypatch.setitem(os.environ, "DATABASE_CA", base64.b64encode(pem.encode()).decode()); assert "sslrootcert=" in common._dsn()   # también en base64
+    monkeypatch.setitem(os.environ, "DATABASE_CA", ""); assert "certifi" in common._dsn() or "cacert.pem" in common._dsn()                       # sin CA propia: autoridades públicas
+    monkeypatch.setitem(os.environ, "DATABASE_URL", "postgresql://u:p@h/d?sslmode=require"); assert common._dsn() == "postgresql://u:p@h/d?sslmode=require"
